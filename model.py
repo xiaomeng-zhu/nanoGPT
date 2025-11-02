@@ -136,6 +136,8 @@ class GPT(nn.Module):
         # This behavior is deprecated and will be an error in future versions"
         # not 100% sure what this is, so far seems to be harmless. TODO investigate
         self.transformer.wte.weight = self.lm_head.weight # https://paperswithcode.com/method/weight-tying
+        # Example: print the first few elements of the token embedding
+        print("wte weights:", self.transformer.wte.weight[:5, :5])
 
         # init all weights
         self.apply(self._init_weights)

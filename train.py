@@ -84,7 +84,7 @@ config = {k: globals()[k] for k in config_keys} # will be useful for logging
 
 # set up logging
 # random seed
-log_file_name = f"gpt2-100M-{current_seed}"
+log_file_name = f"gpt2-10Mby10-{current_seed}-{subsplit}"
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', handlers=[logging.StreamHandler(),logging.FileHandler("logs/" + log_file_name + ".log")])
 logging = logging.getLogger(__name__)
 logging.info(config)
@@ -98,6 +98,7 @@ if torch.cuda.is_available():
 	logging.info(f"Cuda random seed set to {current_seed}")
 	torch.cuda.manual_seed(current_seed)
 logging.info(f"Random seed is {current_seed}")
+logging.info(f"Subsplit is {subsplit}")
 
 
 # various inits, derived attributes, I/O setup
@@ -125,7 +126,7 @@ logging.info(f"tokens per iteration will be: {tokens_per_iter:,}")
 
 if master_process:
     os.makedirs(out_dir, exist_ok=True)
-torch.manual_seed(1337 + seed_offset)
+# torch.manual_seed(1337 + seed_offset) # TODO this was a new finding
 torch.backends.cuda.matmul.allow_tf32 = True # allow tf32 on matmul
 torch.backends.cudnn.allow_tf32 = True # allow tf32 on cudnn
 device_type = 'cuda' if 'cuda' in device else 'cpu' # for later use in torch.autocast
@@ -139,9 +140,9 @@ def get_batch(split):
     # We recreate np.memmap every batch to avoid a memory leak, as per
     # https://stackoverflow.com/questions/45132940/numpy-memmap-memory-usage-want-to-iterate-once/61472122#61472122
     if split == 'train':
-        data = np.memmap(os.path.join(data_dir, 'train.bin'), dtype=np.uint16, mode='r')
+        data = np.memmap(os.path.join(data_dir, f'train_{subsplit}.bin'), dtype=np.uint16, mode='r')
     else:
-        data = np.memmap(os.path.join(data_dir, 'val.bin'), dtype=np.uint16, mode='r')
+        data = np.memmap(os.path.join(data_dir, f'val_{subsplit}.bin'), dtype=np.uint16, mode='r')
     ix = torch.randint(len(data) - block_size, (batch_size,))
     x = torch.stack([torch.from_numpy((data[i:i+block_size]).astype(np.int64)) for i in ix])
     y = torch.stack([torch.from_numpy((data[i+1:i+1+block_size]).astype(np.int64)) for i in ix])
@@ -305,7 +306,7 @@ while True:
                     'config': config,
                 }
                 logging.info(f"saving checkpoint to {out_dir}")
-                torch.save(checkpoint, os.path.join(out_dir, f'{current_seed}_ckpt_step{iter_num}.pt'))
+                torch.save(checkpoint, os.path.join(out_dir, f'{current_seed}_{subsplit}_step{iter_num}.pt'))
     if iter_num == 0 and eval_only:
         break
 
