@@ -31,7 +31,14 @@ from torch.distributed import init_process_group, destroy_process_group
 
 from model import GPTConfig, GPT
 
-current_seed = 440
+torch.use_deterministic_algorithms(True)
+torch.backends.cudnn.deterministic = True
+torch.backends.cudnn.benchmark = False # finding fastest algorithms, disabled
+
+# -------- experimental configurations -----------
+exp_version = "exp1"
+model_seed = 440
+data_seed = 440
 subsplit = 0
 # -----------------------------------------------------------------------------
 # default config values designed to train a gpt2 (124M) on OpenWebText
@@ -84,22 +91,17 @@ config = {k: globals()[k] for k in config_keys} # will be useful for logging
 
 # set up logging
 # random seed
-log_file_name = f"gpt2-10Mby10-{current_seed}-{subsplit}"
+log_file_name = f"gpt2-{exp_version}-m{model_seed}-d{data_seed}_{subsplit}"
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', handlers=[logging.StreamHandler(),logging.FileHandler("logs/" + log_file_name + ".log")])
 logging = logging.getLogger(__name__)
 logging.info(config)
 
-# set up random seed
-random.seed(current_seed)
-np.random.seed(current_seed)
-torch.manual_seed(current_seed)
-logging.info(f"Random seed set to {current_seed}")
+# set up random seed for built-in random and np
+random.seed(42)
+np.random.seed(42)
 if torch.cuda.is_available():
-	logging.info(f"Cuda random seed set to {current_seed}")
-	torch.cuda.manual_seed(current_seed)
-logging.info(f"Random seed is {current_seed}")
+	torch.cuda.manual_seed(42) # set cuda seed
 logging.info(f"Subsplit is {subsplit}")
-
 
 # various inits, derived attributes, I/O setup
 ddp = int(os.environ.get('RANK', -1)) != -1 # is this a ddp run?
@@ -166,6 +168,10 @@ if os.path.exists(meta_path):
     meta_vocab_size = meta['vocab_size']
     logging.info(f"found vocab_size = {meta_vocab_size} (inside {meta_path})")
 
+# set up random seed for model initialization
+torch.manual_seed(model_seed) # set torch seed
+logging.info(f"Torch random seed is {model_seed} for model init")
+
 # model init
 model_args = dict(n_layer=n_layer, n_head=n_head, n_embd=n_embd, block_size=block_size,
                   bias=bias, vocab_size=None, dropout=dropout) # start with model_args from command line
@@ -214,6 +220,7 @@ if block_size < model.config.block_size:
     model.crop_block_size(block_size)
     model_args['block_size'] = block_size # so that the checkpoint will have the right value
 model.to(device)
+# print(f"model weight {model.transformer.wte.weight[:2, :5]}")
 
 # initialize a GradScaler. If enabled=False scaler is a no-op
 scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
@@ -269,8 +276,14 @@ if wandb_log and master_process:
     import wandb
     wandb.init(project=wandb_project, name=wandb_run_name, config=config)
 
+# set up data seed
+torch.manual_seed(data_seed) # set torch seed
+logging.info(f"Torch random seed is {data_seed} for data")
+
+
 # training loop
 X, Y = get_batch('train') # fetch the very first batch
+# print(f"very first X {X[:5, :5]} Y {Y[:5, :5]}")
 t0 = time.time()
 local_iter_num = 0 # number of iterations in the lifetime of this process
 raw_model = model.module if ddp else model # unwrap DDP container if needed
@@ -306,7 +319,7 @@ while True:
                     'config': config,
                 }
                 logging.info(f"saving checkpoint to {out_dir}")
-                torch.save(checkpoint, os.path.join(out_dir, f'{current_seed}_{subsplit}_step{iter_num}.pt'))
+                torch.save(checkpoint, os.path.join(out_dir, f'm{model_seed}_d{data_seed}_{subsplit}_step{iter_num}.pt'))
     if iter_num == 0 and eval_only:
         break
 
