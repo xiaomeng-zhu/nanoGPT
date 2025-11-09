@@ -5,7 +5,7 @@ import torch
 import tiktoken
 from torch.nn.functional import cosine_similarity
 import torch.nn.functional as F
-from transformers import PreTrainedTokenizerFast, GPT2LMHeadModel, RobertaTokenizerFast, AutoModel, GPT2Tokenizer, RobertaForMaskedLM
+from transformers import PreTrainedTokenizerFast, GPT2LMHeadModel, RobertaTokenizerFast, GPTNeoXForCausalLM, AutoTokenizer, AutoModel, AutoModelForCausalLM, GPT2Tokenizer, RobertaForMaskedLM
 import pickle
 from pyinflect import getAllInflections
 
@@ -17,7 +17,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from itertools import combinations
-from datasets import load_dataset # huggingface
+from datasets import get_dataset_config_names, load_dataset, load_from_disk # huggingface
 from math import exp
 
 from model import GPTConfig, GPT
@@ -30,26 +30,36 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 parser = argparse.ArgumentParser()
 
 # Tokenizer Parameters
-parser.add_argument("--random_seed", type=int, help="random seed of model")
-parser.add_argument("--subsplit", type=int, help="subsplit of model")
+parser.add_argument("--model_seed", type=int, help="random seed of model", default=42)
+parser.add_argument("--model_type", type=str, help="pretrained or self-trained", default="self-trained")
+parser.add_argument("--model_size", type=int, help="size of pretrained model in M", default=14)
+parser.add_argument("--model_name", type=str, help="name of pretrained model in M", default="pythia")
+parser.add_argument("--data_seed", type=int, help="random seed of data", default=42)
+parser.add_argument("--subsplit", type=int, help="subsplit of model", default=999)
 parser.add_argument("--step", type=int, help="num iterations of the checkpoint", default=0) # not required if evaluating from pretrained
 args = parser.parse_args()
 
-log_file_name = f"gpt2-10Mby10-{args.random_seed}-{args.subsplit}-step={args.step}"
+log_file_name = f"blimp_eval-m{args.model_seed}-d{args.data_seed}-{args.subsplit}-step={args.step}"
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', handlers=[logging.StreamHandler(),logging.FileHandler("logs/" + log_file_name + ".log")])
 logging = logging.getLogger(__name__)
 logging.info(args)
 
 enc = tiktoken.get_encoding("gpt2")
+pythia_tokenizer = AutoTokenizer.from_pretrained(f"EleutherAI/pythia-{args.model_size}m")
+
 def process(example):
-    ids = enc.encode_ordinary(example) # encode_ordinary ignores any special tokens
-    ids = torch.tensor([ids]).to(DEVICE)
+    if args.model_type == "pretrained" and args.model_name == "pythia":
+        # logging.info(f"Using pretrained pythia tokenizer")
+        ids = pythia_tokenizer(example, return_tensors="pt").to(DEVICE)
+    else:
+        ids = enc.encode_ordinary(example) # encode_ordinary ignores any special tokens
+        ids = torch.tensor([ids]).to(DEVICE)
     return ids
 
-def load_model(random_seed, step, subsplit):
+def load_model(model_seed, data_seed, step, subsplit):
     # load model
-    checkpoint = torch.load(f"out/{random_seed}_{subsplit}_step{step}.pt", map_location=torch.device(DEVICE))
-    logging.info(f"Loading model checkpoint from out/{random_seed}_{subsplit}_step{step}.pt")
+    checkpoint = torch.load(f"out/m{model_seed}_d{data_seed}_{subsplit}_step{step}.pt", map_location=torch.device(DEVICE))
+    logging.info(f"Loading model checkpoint from out/m{model_seed}_d{data_seed}_{subsplit}_step{step}.pt")
     checkpoint_model_args = checkpoint['model_args']
 
     gptconf = GPTConfig(**checkpoint_model_args)
@@ -67,9 +77,18 @@ def load_model(random_seed, step, subsplit):
     model.eval()
     return model
 
-def load_eval_dataset(blimp_config):
-    dataset = load_dataset("nyu-mll/blimp", blimp_config)["train"]
-    return dataset
+def download_eval_dataset():
+    configs = get_dataset_config_names("nyu-mll/blimp")
+    # dataset = load_dataset("nyu-mll/blimp", blimp_config)["train"]
+    # dataset.save_to_disk("blimp")
+    datasets_dict = {}
+
+    for cfg in configs:
+        datasets_dict[cfg] = load_dataset("nyu-mll/blimp", cfg)["train"]
+
+    for cfg, ds in datasets_dict.items():
+        ds.save_to_disk(f"blimp_datasets/{cfg}")
+
 
 def evaluate(dataset):
     res = []
@@ -84,7 +103,7 @@ def evaluate(dataset):
             
 
 def log_prob(sentence):
-    input_ids = process(sentence).to(DEVICE)
+    input_ids = process(sentence)["input_ids"].to(DEVICE)
     with torch.no_grad():
         outputs = model(input_ids, input_ids)
         logits = outputs[0]
@@ -105,13 +124,32 @@ def log_prob(sentence):
     return total_log_prob
 
         
+def load_pretrained_model_tokenizer(model_seed, model_name, model_size):
+    logging.info(f"Loading model EleutherAI/{model_name}-{model_size}m-seed{model_seed}")
+    model = GPTNeoXForCausalLM.from_pretrained(
+        f"EleutherAI/{model_name}-{model_size}m-seed{model_seed}",
+        revision="step143000").to(DEVICE)
+    return model
+
 
 if __name__ == "__main__":
+    path = "blimp_datasets"
+    restored_datasets = {
+        cfg: load_from_disk(os.path.join(path, cfg))
+        for cfg in os.listdir(path)
+    }
 
-    model = load_model(args.random_seed, args.step, args.subsplit)
+    # Load model
+    if args.model_type == "pretrained":
+        model = load_pretrained_model_tokenizer(args.model_seed, args.model_name, args.model_size)
+    else: # if not pretrained model
+        model = load_model(args.model_seed, args.data_seed, args.step, args.subsplit)
+
+    # get results
     for conf in tqdm(blimp_configs):
-        dataset = load_eval_dataset(conf)
+        dataset = restored_datasets[conf]
         res = evaluate(dataset)
-        res_fn = f"results/blimp_{conf}_{args.random_seed}_{args.subsplit}_{args.step}.csv"
+        res_fn = f"results/blimp_{conf}_m{args.model_seed}_d{args.data_seed}_{args.subsplit}_{args.step}.csv"
         logging.info(f"Saving results to {res_fn}")
-        pd.DataFrame(res).to_csv(res_fn, index=False)
+        # pd.DataFrame(res).to_csv(res_fn, index=False)
+    # download_eval_dataset()
