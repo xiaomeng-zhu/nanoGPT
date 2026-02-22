@@ -5,17 +5,13 @@ import torch
 import tiktoken
 from torch.nn.functional import cosine_similarity
 import torch.nn.functional as F
-from transformers import PreTrainedTokenizerFast, GPT2LMHeadModel, RobertaTokenizerFast, GPTNeoXForCausalLM, AutoTokenizer, AutoModel, AutoModelForCausalLM, GPT2Tokenizer, RobertaForMaskedLM
+from transformers import AutoTokenizer, AutoModelForCausalLM
 import pickle
 from pyinflect import getAllInflections
 
-import spacy
-
 from tqdm import tqdm
-from sklearn.decomposition import PCA
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 from itertools import combinations
 from datasets import get_dataset_config_names, load_dataset, load_from_disk # huggingface
 from math import exp
@@ -26,6 +22,7 @@ blimp_configs = ['adjunct_island', 'anaphor_gender_agreement', 'anaphor_number_a
         
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"Device is {DEVICE}")
 
 parser = argparse.ArgumentParser()
 
@@ -46,11 +43,18 @@ logging.info(args)
 
 enc = tiktoken.get_encoding("gpt2")
 pythia_tokenizer = AutoTokenizer.from_pretrained(f"EleutherAI/pythia-{args.model_size}m")
+if args.model_name != "pythia" and args.model_type == "pretrained": # other pretrained models use the generic tokenizer
+    generic_tokenizer = AutoTokenizer.from_pretrained(args.model_name)
+if args.model_type == "pretrained":
+    # only do these import if pretrained
+    from transformers import GPTOssForCausalLM, AutoConfig, PreTrainedTokenizerFast, GPT2LMHeadModel, RobertaTokenizerFast, GPTNeoXForCausalLM
 
 def process(example):
-    if args.model_type == "pretrained" and args.model_name == "pythia":
+    if args.model_type == "pretrained" and args.model_name == "pythia": # if pretrained and pythia
         # logging.info(f"Using pretrained pythia tokenizer")
         ids = pythia_tokenizer(example, return_tensors="pt").to(DEVICE)
+    elif args.model_type == "pretrained" and args.model_name != "pythia": # if pretrained but not pythia:
+        ids = generic_tokenizer(example, return_tensors="pt").to(DEVICE)
     else:
         ids = enc.encode_ordinary(example) # encode_ordinary ignores any special tokens
         ids = torch.tensor([ids]).to(DEVICE)
@@ -103,7 +107,10 @@ def evaluate(dataset):
             
 
 def log_prob(sentence):
-    input_ids = process(sentence)["input_ids"].to(DEVICE)
+    if args.model_type == "pretrained":
+        input_ids = process(sentence)["input_ids"].to(DEVICE)
+    else:
+        input_ids = process(sentence).to(DEVICE)
     with torch.no_grad():
         outputs = model(input_ids, input_ids)
         logits = outputs[0]
@@ -125,10 +132,19 @@ def log_prob(sentence):
 
         
 def load_pretrained_model_tokenizer(model_seed, model_name, model_size):
-    logging.info(f"Loading model EleutherAI/{model_name}-{model_size}m-seed{model_seed}")
-    model = GPTNeoXForCausalLM.from_pretrained(
-        f"EleutherAI/{model_name}-{model_size}m-seed{model_seed}",
-        revision="step143000").to(DEVICE)
+    if model_name == "pythia":
+        logging.info(f"Loading model EleutherAI/{model_name}-{model_size}m-seed{model_seed}")
+        model = GPTNeoXForCausalLM.from_pretrained(
+            f"EleutherAI/{model_name}-{model_size}m-seed{model_seed}",
+            revision="step143000").to(DEVICE)
+    elif model_name.startswith("openai"):
+        model = GPTOssForCausalLM.from_pretrained(
+            model_name,
+            device_map="auto",
+            torch_dtype = torch.bfloat16
+        ) # TODO: figure out how to load the openai oss model (will this necessarily involve sharding?)
+    else:
+        model = AutoModelForCausalLM.from_pretrained(model_name).to(DEVICE)
     return model
 
 
@@ -149,7 +165,12 @@ if __name__ == "__main__":
     for conf in tqdm(blimp_configs):
         dataset = restored_datasets[conf]
         res = evaluate(dataset)
-        res_fn = f"results/blimp_{conf}_m{args.model_seed}_d{args.data_seed}_{args.subsplit}_{args.step}.csv"
+        if args.model_type == "pretrained" and args.model_name == "pythia":
+            res_fn = f"pretrained_results/blimp_{conf}_{args.model_name}_{args.model_size}M_s{args.model_seed}.csv"
+        elif args.model_type == "pretrained" and args.model_name != "pythia": # not pretrained pythia with random seed
+            res_fn = f"pretrained_results/blimp_{conf}_{args.model_name.replace('/', '_')}.csv"
+        else:
+            res_fn = f"results_c4_10M/blimp_{conf}_m{args.model_seed}_d{args.data_seed}_{args.subsplit}_{args.step}.csv"
         logging.info(f"Saving results to {res_fn}")
-        # pd.DataFrame(res).to_csv(res_fn, index=False)
+        pd.DataFrame(res).to_csv(res_fn, index=False)
     # download_eval_dataset()
