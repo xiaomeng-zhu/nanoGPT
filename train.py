@@ -74,8 +74,10 @@ beta2 = 0.95
 grad_clip = 1.0 # clip gradients at this value, or disable if == 0.0
 # learning rate decay settings
 decay_lr = True # whether to decay the learning rate
-warmup_iters = 2000 # how many steps to warm up for
-lr_decay_iters = 600000 # should be ~= max_iters per Chinchilla
+# warmup_iters = 2000 # how many steps to warm up for
+warmup_iters = max_iters // 10 # MZ: set to max_iters // 10 instead of 2000
+lr_decay_iters = 500
+# lr_decay_iters = 600000 # should be ~= max_iters per Chinchilla # MZ: set this to be the same as 
 min_lr = 6e-5 # minimum learning rate, should be ~= learning_rate/10 per Chinchilla
 # DDP settings
 backend = 'nccl' # 'nccl', 'gloo', etc.
@@ -144,7 +146,8 @@ def get_batch(split):
     if split == 'train':
         data = np.memmap(os.path.join(data_dir, f'train_{subsplit}.bin'), dtype=np.uint16, mode='r')
     else:
-        data = np.memmap(os.path.join(data_dir, f'val_{subsplit}.bin'), dtype=np.uint16, mode='r')
+        # data = np.memmap(os.path.join(data_dir, f'val_{subsplit}.bin'), dtype=np.uint16, mode='r')
+        data = np.memmap(os.path.join(data_dir, f'val_200K.bin'), dtype=np.uint16, mode='r')
     ix = torch.randint(len(data) - block_size, (batch_size,))
     x = torch.stack([torch.from_numpy((data[i:i+block_size]).astype(np.int64)) for i in ix])
     y = torch.stack([torch.from_numpy((data[i+1:i+1+block_size]).astype(np.int64)) for i in ix])
@@ -311,15 +314,14 @@ while True:
             best_val_loss = losses['val']
             if iter_num > 0:
                 checkpoint = {
-                    'model': raw_model.state_dict(),
-                    'optimizer': optimizer.state_dict(),
+                    'model': raw_model.state_dict(), # stopped saving optimizers
                     'model_args': model_args,
                     'iter_num': iter_num,
                     'best_val_loss': best_val_loss,
                     'config': config,
                 }
                 logging.info(f"saving checkpoint to {out_dir}")
-                torch.save(checkpoint, os.path.join(out_dir, f'm{model_seed}_d{data_seed}_{subsplit}_step{iter_num}.pt'))
+                torch.save(checkpoint, os.path.join(out_dir, f'{dataset}_m{model_seed}_d{data_seed}_{subsplit}_step{iter_num}.pt'))
     if iter_num == 0 and eval_only:
         break
 
