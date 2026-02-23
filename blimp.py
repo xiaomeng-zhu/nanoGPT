@@ -76,19 +76,38 @@ def process(example):
         input_with_bos = torch.cat([bos_tensor, input_ids], dim=1).to(DEVICE)
 
     elif args.model_type == "pretrained" and args.model_name != "pythia": # if pretrained but not pythia:
-        ids = generic_tokenizer(example, return_tensors="pt").to(DEVICE)
+        input_ids = generic_tokenizer(example, return_tensors="pt")["input_ids"].to(DEVICE)
+        
+        # get the bos token id
         bos = generic_tokenizer.bos_token_id # get the bos token
+        
+        # tensorize
         bos_tensor = torch.tensor([[bos]], device=DEVICE)
-        input_with_bos = torch.cat([bos_tensor, input_ids], dim=1).to(DEVICE) # concatenate
-        ids = enc.encode_ordinary(example) # encode_ordinary ignores any special tokens
+
+        # prepend
+        input_with_bos = torch.cat([bos_tensor, ids], dim=1).to(DEVICE) # concatenate
+    
+    else:
+        # get ids
+        ids = enc.encode_ordinary(example)
         ids = torch.tensor([ids]).to(DEVICE)
+
+        # get end of text token id
+        eot_token = enc.eot_token # 50256
+
+        # tensorize
+        eot_tensor = torch.tensor([[eot_token]], device=DEVICE)
+
+        # prepend
+        input_with_bos = torch.cat([eot_tensor, ids], dim=1).to(DEVICE)
+        # print(ids, input_with_bos)
 
     return input_with_bos
 
-def load_model(model_seed, data_seed, step, subsplit):
+def load_model(training_data, model_seed, data_seed, step, subsplit):
     # load model
-    checkpoint = torch.load(f"out/m{model_seed}_d{data_seed}_{subsplit}_step{step}.pt", map_location=torch.device(DEVICE))
-    logging.info(f"Loading model checkpoint from out/m{model_seed}_d{data_seed}_{subsplit}_step{step}.pt")
+    checkpoint = torch.load(f"out/{training_data}_m{model_seed}_d{data_seed}_{subsplit}_step{step}.pt", map_location=torch.device(DEVICE))
+    logging.info(f"Loading model checkpoint from out/{training_data}_m{model_seed}_d{data_seed}_{subsplit}_step{step}.pt")
     checkpoint_model_args = checkpoint['model_args']
 
     gptconf = GPTConfig(**checkpoint_model_args)
@@ -135,8 +154,10 @@ def log_prob(sentence):
     input_ids = process(sentence).to(DEVICE)
 
     with torch.no_grad():
-        outputs = model(input_ids = input_ids)
-        # outputs = model(input_ids, input_ids)
+        if args.model_type == "pretrained": # use this style for pretrained model
+            outputs = model(input_ids = input_ids)
+        else: # if nanoGPT style training
+            outputs = model(input_ids, input_ids)
         logits = outputs[0]
         # print(f"logits size {logits.size()}")
 
@@ -196,18 +217,18 @@ if __name__ == "__main__":
     if args.model_type == "pretrained":
         model = load_pretrained_model_tokenizer(args.model_seed, args.model_name, args.model_size)
     else: # if not pretrained model
-        model = load_model(args.model_seed, args.data_seed, args.step, args.subsplit)
+        model = load_model("c4_10M", args.model_seed, args.data_seed, args.step, args.subsplit)
 
     # get results
     for conf in tqdm(blimp_configs):
         dataset = restored_datasets[conf]
         res = evaluate(dataset)
-        # if args.model_type == "pretrained" and args.model_name == "pythia":
-        #     res_fn = f"pretrained_results/blimp_{conf}_{args.model_name}_{args.model_size}M_s{args.model_seed}.csv"
-        # elif args.model_type == "pretrained" and args.model_name != "pythia": # not pretrained pythia with random seed
-        #     res_fn = f"pretrained_results/blimp_{conf}_{args.model_name.replace('/', '_')}.csv"
-        # else:
-        #     res_fn = f"results_c4_10M/blimp_{conf}_m{args.model_seed}_d{args.data_seed}_{args.subsplit}_{args.step}.csv"
-        # logging.info(f"Saving results to {res_fn}")
-        # pd.DataFrame(res).to_csv(res_fn, index=False)
+        if args.model_type == "pretrained" and args.model_name == "pythia":
+            res_fn = f"pretrained_results/blimp_{conf}_{args.model_name}_{args.model_size}M_s{args.model_seed}.csv"
+        elif args.model_type == "pretrained" and args.model_name != "pythia": # not pretrained pythia with random seed
+            res_fn = f"pretrained_results/blimp_{conf}_{args.model_name.replace('/', '_')}.csv"
+        else:
+            res_fn = f"results_c4_10M/blimp_{conf}_m{args.model_seed}_d{args.data_seed}_{args.subsplit}_{args.step}.csv"
+        logging.info(f"Saving results to {res_fn}")
+        pd.DataFrame(res).to_csv(res_fn, index=False)
     # download_eval_dataset()
