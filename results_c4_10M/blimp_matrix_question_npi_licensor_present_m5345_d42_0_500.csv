@@ -1,0 +1,1001 @@
+sentence_good,sentence_bad,field,linguistics_term,UID,simple_LM_method,one_prefix_method,two_prefix_method,lexically_identical,pair_id,good_prob,bad_prob,correct
+Had Bruce ever played?,Bruce had ever played.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,0,-41.45795440673828,-34.90189743041992,0
+Had Patrick ever answered?,Patrick had ever answered.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,1,-41.64936828613281,-33.94182205200195,0
+Do some carts ever accelerate?,Some carts do ever accelerate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,2,-50.738182067871094,-47.80366516113281,0
+Will Dawn ever know Jeffrey?,Dawn will ever know Jeffrey.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,3,-52.968528747558594,-56.361488342285156,1
+Should Monica ever grin?,Monica should ever grin.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,4,-48.09395217895508,-47.672550201416016,0
+Has Cindy ever anticipated most dancers to study?,Cindy has ever anticipated most dancers to study.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,5,-74.0477294921875,-75.0190658569336,1
+Had Denise ever doubted Galileo can't bother to train?,Denise had ever doubted Galileo can't bother to train.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,6,-89.20736694335938,-83.7276382446289,0
+Has Jane ever worried Tonya?,Jane has ever worried Tonya.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,7,-59.65329360961914,-50.61619186401367,0
+Would many customers ever bake?,Many customers would ever bake.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,8,-46.528114318847656,-41.3737907409668,0
+Should Mitchell ever know Eva?,Mitchell should ever know Eva.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,9,-59.005279541015625,-61.935752868652344,1
+Could many doctors ever clash?,Many doctors could ever clash.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,10,-50.1481819152832,-39.545005798339844,0
+Has Sandra ever planned to get a job?,Sandra has ever planned to get a job.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,11,-54.9255485534668,-47.53626251220703,0
+Will the horse ever come here?,The horse will ever come here.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,12,-40.574729919433594,-34.126808166503906,0
+Did children ever cope?,Children did ever cope.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,13,-39.273277282714844,-38.231056213378906,0
+Did Carolyn ever argue?,Carolyn did ever argue.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,14,-45.791690826416016,-41.684410095214844,0
+Did most dresses ever shrink?,Most dresses did ever shrink.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,15,-47.532073974609375,-47.8610954284668,1
+Might Sarah ever forget many teachers?,Sarah might ever forget many teachers.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,16,-72.6395263671875,-50.15180969238281,0
+Might Frank ever boast about Melanie?,Frank might ever boast about Melanie.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,17,-75.06584930419922,-64.29667663574219,0
+Had Dennis ever begged Joel to stretch?,Dennis had ever begged Joel to stretch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,18,-75.27123260498047,-64.27554321289062,0
+Does Eric ever prompt Dawn to write?,Eric does ever prompt Dawn to write.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,19,-66.4646987915039,-65.80345153808594,0
+Would Ann ever drink?,Ann would ever drink.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,20,-41.71333694458008,-36.79454803466797,0
+Did Sharon ever waste away?,Sharon did ever waste away.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,21,-48.60580825805664,-51.152015686035156,1
+Would some screen ever disappear?,Some screen would ever disappear.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,22,-46.39204406738281,-41.3541259765625,0
+Does Gary ever believe Dennis to alarm Stephanie?,Gary does ever believe Dennis to alarm Stephanie.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,23,-77.92796325683594,-77.75797271728516,0
+Will that coat ever warp?,That coat will ever warp.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,24,-53.03659439086914,-43.82341003417969,0
+Had Suzanne ever sat down?,Suzanne had ever sat down.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,25,-48.93003845214844,-40.3604736328125,0
+Has Nina ever descended that mountain?,Nina has ever descended that mountain.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,26,-61.83570098876953,-57.37440872192383,0
+Did Jill ever die?,Jill did ever die.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,27,-42.3324089050293,-39.948036193847656,0
+Will Bradley ever mutter?,Bradley will ever mutter.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,28,-53.391326904296875,-46.69342803955078,0
+Have many children ever surrendered?,Many children have ever surrendered.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,29,-42.62378692626953,-35.87434768676758,0
+Would Stephen ever hide away?,Stephen would ever hide away.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,30,-51.78499984741211,-44.56294250488281,0
+Has Steven ever badgered every man to sound like most senators?,Steven has ever badgered every man to sound like most senators.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,31,-105.67314147949219,-94.8614730834961,0
+Might students ever see?,Students might ever see.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,32,-46.68136215209961,-30.69245147705078,0
+Will some bank ever profit?,Some bank will ever profit.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,33,-46.05586624145508,-40.570735931396484,0
+Would Andrea ever encourage Beth to care for Charles?,Andrea would ever encourage Beth to care for Charles.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,34,-78.23153686523438,-73.79255676269531,0
+Has Brad ever insulted Irene?,Brad has ever insulted Irene.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,35,-60.200889587402344,-53.85901641845703,0
+Could Vanessa ever dislike Charles?,Vanessa could ever dislike Charles.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,36,-59.278621673583984,-51.013668060302734,0
+Had Carl ever kissed Irene?,Carl had ever kissed Irene.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,37,-60.103492736816406,-51.886009216308594,0
+Will Christina ever try to observe Dawn?,Christina will ever try to observe Dawn.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,38,-67.90852355957031,-62.01173400878906,0
+Did Samuel ever sneeze?,Samuel did ever sneeze.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,39,-54.518524169921875,-54.91282653808594,1
+Should a lot of girls ever benefit?,A lot of girls should ever benefit.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,40,-50.187164306640625,-42.31011962890625,0
+Could some people ever chat?,Some people could ever chat.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,41,-43.63813781738281,-36.46192932128906,0
+Had Colleen ever imagined those actresses have ordered Kevin to talk?,Colleen had ever imagined those actresses have ordered Kevin to talk.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,42,-97.57455444335938,-87.80501556396484,0
+Has Sharon ever climbed down a hill?,Sharon has ever climbed down a hill.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,43,-59.9267578125,-53.85002899169922,0
+Might Catherine ever implore Kristin's cousins to speak up?,Catherine might ever implore Kristin's cousins to speak up.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,44,-109.48971557617188,-97.19076538085938,0
+Have a lot of teachers ever kissed?,A lot of teachers have ever kissed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,45,-47.01294708251953,-46.527740478515625,0
+Has Gary ever argued?,Gary has ever argued.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,46,-42.02570724487305,-33.52727127075195,0
+Have these blouses ever shrunk?,These blouses have ever shrunk.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,47,-49.88835144042969,-45.13945007324219,0
+Did Heather ever visit those closets?,Heather did ever visit those closets.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,48,-67.6517333984375,-60.226341247558594,0
+Do a lot of legislatures ever profit?,A lot of legislatures do ever profit.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,49,-52.087196350097656,-48.910423278808594,0
+Had Raymond ever murmured?,Raymond had ever murmured.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,50,-53.13243103027344,-46.279640197753906,0
+Has Amelia ever learned who aren't seeing?,Amelia has ever learned who aren't seeing.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,51,-67.17670440673828,-65.35174560546875,0
+Had Frank ever cleaned glasses?,Frank had ever cleaned glasses.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,52,-51.692222595214844,-44.39930725097656,0
+Do all hats ever twist?,All hats do ever twist.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,53,-46.93781280517578,-42.83721923828125,0
+Does that ice ever evaporate?,That ice does ever evaporate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,54,-48.85334777832031,-46.40446472167969,0
+Had some vase ever tipped over?,Some vase had ever tipped over.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,55,-57.55848693847656,-50.04909896850586,0
+Has Steven ever tried to die?,Steven has ever tried to die.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,56,-47.06072235107422,-37.25944137573242,0
+Had Amy ever cooked?,Amy had ever cooked.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,57,-42.00848388671875,-34.76441192626953,0
+Has Deanna ever learned what won't negotiate?,Deanna has ever learned what won't negotiate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,58,-71.5372314453125,-64.09577941894531,0
+Can Natalie ever criticize the senator?,Natalie can ever criticize the senator.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,59,-57.509742736816406,-56.99623107910156,0
+Had some convertibles ever stopped?,Some convertibles had ever stopped.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,60,-53.706634521484375,-45.683738708496094,0
+Could Janice ever play?,Janice could ever play.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,61,-48.13098907470703,-44.231101989746094,0
+Had Carol ever encouraged Phillip to take a lot of public parks?,Carol had ever encouraged Phillip to take a lot of public parks.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,62,-89.04837036132812,-86.4546890258789,0
+Had some government ever clashed?,Some government had ever clashed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,63,-50.72899627685547,-40.32368850708008,0
+Had Christopher ever trained?,Christopher had ever trained.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,64,-43.71003341674805,-37.98233413696289,0
+Has Spain ever pushed these daughters of Melinda to go fishing?,Spain has ever pushed these daughters of Melinda to go fishing.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,65,-94.90939331054688,-86.18316650390625,0
+Would every bank ever work hard?,Every bank would ever work hard.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,66,-50.55268096923828,-43.870277404785156,0
+Might Danielle ever go fishing?,Danielle might ever go fishing.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,67,-59.864051818847656,-50.28388214111328,0
+Has that shirt ever flattened?,That shirt has ever flattened.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,68,-52.048614501953125,-41.4388313293457,0
+Can every committee ever testify?,Every committee can ever testify.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,69,-49.220703125,-42.211090087890625,0
+Have many movies ever disagreed with Jessica?,Many movies have ever disagreed with Jessica.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,70,-58.14360809326172,-53.46710205078125,0
+Should William ever exercise?,William should ever exercise.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,71,-44.665977478027344,-38.108802795410156,0
+Had James ever dropped by this museum?,James had ever dropped by this museum.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,72,-66.17093658447266,-53.0111083984375,0
+Did Jennifer ever disappear?,Jennifer did ever disappear.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,73,-41.5606575012207,-37.21797180175781,0
+Had the doctors ever intended to drop by most movie theaters?,The doctors had ever intended to drop by most movie theaters.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,74,-81.60465240478516,-71.75410461425781,0
+Does Liam ever come here?,Liam does ever come here.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,75,-39.74057388305664,-44.89576721191406,1
+Should Jodi ever argue?,Jodi should ever argue.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,76,-52.92204284667969,-42.223793029785156,0
+Should guests ever seem to suffer?,Guests should ever seem to suffer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,77,-50.71316909790039,-49.324378967285156,0
+Would Julia ever scratch?,Julia would ever scratch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,78,-47.998687744140625,-44.1483039855957,0
+Had Adam ever forgotten about who have hats?,Adam had ever forgotten about who have hats.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,79,-65.96338653564453,-60.09644317626953,0
+Has Carol ever declared some ladies to shout?,Carol has ever declared some ladies to shout.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,80,-75.6146011352539,-70.38028717041016,0
+Does the jacket ever fold?,The jacket does ever fold.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,81,-44.01325607299805,-41.96907043457031,0
+Had some books ever disagreed?,Some books had ever disagreed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,82,-42.45486068725586,-37.81143569946289,0
+Has a waitress ever hoped to take every carriage?,A waitress has ever hoped to take every carriage.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,83,-68.11212158203125,-61.160518646240234,0
+Would Edward ever watch Wendy?,Edward would ever watch Wendy.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,84,-54.61045455932617,-46.02039337158203,0
+Should Carrie ever answer?,Carrie should ever answer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,85,-43.20751190185547,-40.62803649902344,0
+Have these ladies ever seen Kayla?,These ladies have ever seen Kayla.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,86,-49.48063659667969,-41.43004608154297,0
+Had Wendy ever proven to fold?,Wendy had ever proven to fold.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,87,-57.370201110839844,-50.53959655761719,0
+Had every child ever left every guest?,Every child had ever left every guest.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,88,-58.862403869628906,-48.66210174560547,0
+Had some children ever reunited?,Some children had ever reunited.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,89,-47.39222717285156,-38.439300537109375,0
+Have a lot of waiters ever whispered?,A lot of waiters have ever whispered.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,90,-51.330745697021484,-48.69245147705078,0
+Has Rebecca ever enticed the waiter to scratch?,Rebecca has ever enticed the waiter to scratch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,91,-76.34658813476562,-67.18913269042969,0
+Had some ladies ever answered?,Some ladies had ever answered.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,92,-41.116310119628906,-35.19480895996094,0
+Would the play ever disgust Karen?,The play would ever disgust Karen.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,93,-64.56826782226562,-58.54167556762695,0
+Could that child ever tour the malls?,That child could ever tour the malls.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,94,-70.45085144042969,-58.293338775634766,0
+Had Nicole ever believed Pamela to cheer?,Nicole had ever believed Pamela to cheer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,95,-68.02967834472656,-68.08897399902344,1
+Would Irene ever attempt to answer?,Irene would ever attempt to answer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,96,-54.044349670410156,-54.8123779296875,1
+Did the actors ever debate?,The actors did ever debate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,97,-42.17076873779297,-40.47412872314453,0
+Does Linda ever insult Sheila?,Linda does ever insult Sheila.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,98,-55.2579460144043,-59.07160186767578,1
+Have the schools ever required Edward to argue?,The schools have ever required Edward to argue.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,99,-69.42289733886719,-61.27882385253906,0
+Have most chairs ever tipped over?,Most chairs have ever tipped over.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,100,-50.09817123413086,-44.473751068115234,0
+Have the Clintons ever worked hard?,The Clintons have ever worked hard.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,101,-53.58095932006836,-47.12924575805664,0
+Have most lamps ever dimmed?,Most lamps have ever dimmed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,102,-49.62089538574219,-46.32952880859375,0
+Had Kendra ever yawned?,Kendra had ever yawned.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,103,-56.7439079284668,-51.47412109375,0
+Had Samuel ever wept?,Samuel had ever wept.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,104,-54.994171142578125,-50.7740592956543,0
+Might many lights ever darken?,Many lights might ever darken.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,105,-62.56337356567383,-48.7282829284668,0
+Will Sally ever escape?,Sally will ever escape.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,106,-46.42047882080078,-36.35661315917969,0
+Had Jerry ever observed Rachel?,Jerry had ever observed Rachel.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,107,-55.873390197753906,-46.81322479248047,0
+Will a lot of public parks ever irritate Tara?,A lot of public parks will ever irritate Tara.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,108,-80.13523864746094,-72.27760314941406,0
+Can a doctor ever observe Amy?,A doctor can ever observe Amy.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,109,-59.291015625,-50.737037658691406,0
+Has Donald ever yearned to embarrass Tonya?,Donald has ever yearned to embarrass Tonya.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,110,-85.91450500488281,-79.93458557128906,0
+Can Amanda ever shock Sarah?,Amanda can ever shock Sarah.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,111,-58.19490432739258,-52.7237548828125,0
+Had Lissa ever discovered who has remembered what prodded Kenneth to bake?,Lissa had ever discovered who has remembered what prodded Kenneth to bake.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,112,-121.45834350585938,-108.32658386230469,0
+Can this mushroom ever go bad?,This mushroom can ever go bad.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,113,-53.51359558105469,-44.37228775024414,0
+Might some library ever compete?,Some library might ever compete.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,114,-63.05831527709961,-43.898353576660156,0
+Had this cilantro ever charred?,This cilantro had ever charred.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,115,-56.00907516479492,-49.17844772338867,0
+Did Monica ever convince Brian to hide?,Monica did ever convince Brian to hide.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,116,-70.22648620605469,-66.89810180664062,0
+Had a glove ever unfolded?,A glove had ever unfolded.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,117,-44.319053649902344,-39.67148208618164,0
+Can Monet ever donate?,Monet can ever donate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,118,-46.232574462890625,-39.8946533203125,0
+Had the Lutherans ever divorced?,The Lutherans had ever divorced.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,119,-51.78813552856445,-43.59189987182617,0
+Should this adult ever command Melanie to forfeit?,This adult should ever command Melanie to forfeit.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,120,-87.86067962646484,-80.95941162109375,0
+Had Stacy ever attacked Donald?,Stacy had ever attacked Donald.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,121,-53.45960235595703,-52.83024978637695,0
+Can Caroline ever explore these malls?,Caroline can ever explore these malls.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,122,-58.9200439453125,-53.661399841308594,0
+Has Randolf ever argued?,Randolf has ever argued.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,123,-58.51400375366211,-44.41850280761719,0
+Could Deanna ever see a girl?,Deanna could ever see a girl.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,124,-59.59483337402344,-52.591102600097656,0
+Can Martha ever reveal who isn't researching every sketch?,Martha can ever reveal who isn't researching every sketch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,125,-83.15913391113281,-83.50248718261719,1
+Has Patrick ever studied?,Patrick has ever studied.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,126,-42.368202209472656,-30.923383712768555,0
+Should a unicycle ever slow?,A unicycle should ever slow.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,127,-59.139015197753906,-53.955284118652344,0
+Would Chad ever slump over?,Chad would ever slump over.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,128,-56.58313751220703,-54.46235275268555,0
+Has Lawrence ever forced Samuel to smile?,Lawrence has ever forced Samuel to smile.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,129,-69.46725463867188,-63.9212760925293,0
+Might the Impressionists ever reunite?,The Impressionists might ever reunite.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,130,-66.63944244384766,-48.590084075927734,0
+Had glaciers ever frozen?,Glaciers had ever frozen.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,131,-44.2850341796875,-50.88850784301758,1
+Has Stephanie ever disappeared?,Stephanie has ever disappeared.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,132,-41.320491790771484,-49.41960144042969,1
+Does Lawrence ever reveal every glacier?,Lawrence does ever reveal every glacier.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,133,-61.766075134277344,-61.5815315246582,0
+Should that child ever conceal what fade?,That child should ever conceal what fade.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,134,-73.34248352050781,-64.01768493652344,0
+Does Kirsten ever plan to listen to Gina?,Kirsten does ever plan to listen to Gina.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,135,-66.39060974121094,-74.578125,1
+Had Dana ever protested?,Dana had ever protested.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,136,-47.54704284667969,-44.42571258544922,0
+Has Sally ever laughed?,Sally has ever laughed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,137,-41.46178436279297,-36.25646209716797,0
+Might Matt ever argue?,Matt might ever argue.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,138,-54.61023712158203,-39.05784606933594,0
+Could many universities ever reply?,Many universities could ever reply.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,139,-51.33655548095703,-44.94136428833008,0
+Will the guy ever describe Bradley?,The guy will ever describe Bradley.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,140,-56.65160369873047,-46.350643157958984,0
+Could Mitchell ever notice Peter?,Mitchell could ever notice Peter.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,141,-60.56840133666992,-59.60063934326172,0
+Have most men ever escaped?,Most men have ever escaped.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,142,-39.23088836669922,-32.91129684448242,0
+Would the sweater ever dry?,The sweater would ever dry.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,143,-46.51531219482422,-39.13446044921875,0
+Can Elizabeth ever exercise?,Elizabeth can ever exercise.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,144,-44.21809005737305,-39.54173278808594,0
+Does Rhonda ever discover Becca to shout?,Rhonda does ever discover Becca to shout.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,145,-86.33032989501953,-84.68403625488281,0
+Had Dennis ever climbed up that hill?,Dennis had ever climbed up that hill.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,146,-64.46165466308594,-52.15583801269531,0
+Does Kirsten ever remember Angela?,Kirsten does ever remember Angela.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,147,-55.130699157714844,-65.99737548828125,1
+Could Patrick ever litter?,Patrick could ever litter.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,148,-48.99067687988281,-43.73657989501953,0
+Should a lot of lamps ever brighten?,A lot of lamps should ever brighten.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,149,-56.67181396484375,-53.77869415283203,0
+Could Russell ever remember what hadn't sold that scarf?,Russell could ever remember what hadn't sold that scarf.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,150,-81.48019409179688,-76.32982635498047,0
+Would these pictures ever look like Ella?,These pictures would ever look like Ella.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,151,-56.682960510253906,-51.00640869140625,0
+Has Martin ever left?,Martin has ever left.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,152,-39.436195373535156,-33.25566482543945,0
+Might actors ever clash?,Actors might ever clash.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,153,-52.38033676147461,-41.99630355834961,0
+Did some cashiers ever mess up some movie theaters?,Some cashiers did ever mess up some movie theaters.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,154,-72.3227767944336,-76.62815856933594,1
+Would the projector ever darken?,The projector would ever darken.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,155,-56.82817840576172,-49.1726188659668,0
+Had Carla ever looked to spin around?,Carla had ever looked to spin around.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,156,-65.23593139648438,-51.78165054321289,0
+Had Gary ever anticipated Samantha to go to a cafe?,Gary had ever anticipated Samantha to go to a cafe.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,157,-79.83627319335938,-71.89495849609375,0
+Can Beverly ever fix this glass?,Beverly can ever fix this glass.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,158,-56.675201416015625,-57.901344299316406,1
+Had all jackets ever soaked?,All jackets had ever soaked.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,159,-47.635704040527344,-41.93952560424805,0
+Does Walter ever depart?,Walter does ever depart.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,160,-49.3536376953125,-46.118247985839844,0
+Should Deanna ever hide?,Deanna should ever hide.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,161,-53.15304946899414,-45.58579635620117,0
+Did the river ever vaporize?,The river did ever vaporize.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,162,-51.53020477294922,-49.256134033203125,0
+Had Elaine ever shouted?,Elaine had ever shouted.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,163,-50.58383560180664,-47.936038970947266,0
+Had most children ever investigated who doesn't flee from Laurie?,Most children had ever investigated who doesn't flee from Laurie.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,164,-89.49031066894531,-81.18072509765625,0
+Had a lot of cashiers ever impressed this child?,A lot of cashiers had ever impressed this child.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,165,-71.12832641601562,-70.33951568603516,0
+Does Brad ever want some doctors to complain about Melissa?,Brad does ever want some doctors to complain about Melissa.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,166,-73.1649169921875,-71.93816375732422,0
+Had Sara ever referenced Sharon?,Sara had ever referenced Sharon.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,167,-58.95783233642578,-53.838287353515625,0
+Had the glasses ever flattened?,The glasses had ever flattened.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,168,-47.07561492919922,-39.043792724609375,0
+Would Ruth ever hire this driver?,Ruth would ever hire this driver.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,169,-62.39781188964844,-60.26136779785156,0
+Will every popsicle ever melt?,Every popsicle will ever melt.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,170,-58.72191619873047,-49.41135787963867,0
+Have the blouses ever loosened?,The blouses have ever loosened.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,171,-54.04182052612305,-44.7923583984375,0
+Did Jason ever investigate Cheryl?,Jason did ever investigate Cheryl.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,172,-58.165748596191406,-48.21503448486328,0
+Had Connie ever compromised?,Connie had ever compromised.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,173,-46.93047332763672,-40.18260955810547,0
+Would the men ever bother these students?,The men would ever bother these students.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,174,-60.87737274169922,-52.13385772705078,0
+Had teenagers ever retaliated?,Teenagers had ever retaliated.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,175,-47.67977523803711,-47.393882751464844,0
+Should the cart ever accelerate?,The cart should ever accelerate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,176,-46.173439025878906,-45.18262481689453,0
+Does Theodore ever argue?,Theodore does ever argue.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,177,-47.87223815917969,-42.172607421875,0
+Has Matt ever intended to reveal some public parks?,Matt has ever intended to reveal some public parks.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,178,-70.61078643798828,-58.1538200378418,0
+Has Randolf ever shouted?,Randolf has ever shouted.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,179,-61.50600051879883,-49.072303771972656,0
+Does Laurie ever nod?,Laurie does ever nod.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,180,-46.44875717163086,-48.626991271972656,1
+Will Marla ever blink?,Marla will ever blink.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,181,-52.29327392578125,-42.82509231567383,0
+Will that couch ever fall apart?,That couch will ever fall apart.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,182,-49.93236541748047,-42.53556823730469,0
+Should Dana ever order Kenneth's employee to explore most museums?,Dana should ever order Kenneth's employee to explore most museums.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,183,-104.81263732910156,-102.30838012695312,0
+Had Vanessa ever appreciated Patrick?,Vanessa had ever appreciated Patrick.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,184,-56.26885986328125,-47.228271484375,0
+Can that shoe ever fray?,That shoe can ever fray.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,185,-51.02290725708008,-47.18025207519531,0
+Has Margaret ever failed to discuss that woman?,Margaret has ever failed to discuss that woman.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,186,-63.13330078125,-59.561309814453125,0
+Has that apple ever charred?,That apple has ever charred.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,187,-49.69650650024414,-44.33037567138672,0
+Have those waiters ever obligated Monica to suffer?,Those waiters have ever obligated Monica to suffer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,188,-88.89202880859375,-83.1310806274414,0
+Did this committee ever reply?,This committee did ever reply.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,189,-47.41851806640625,-38.93489074707031,0
+Could Theodore ever swallow?,Theodore could ever swallow.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,190,-57.65901184082031,-41.423126220703125,0
+Should Ella ever exist?,Ella should ever exist.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,191,-44.76518249511719,-44.084068298339844,0
+Has Stacey ever cared for Ruth?,Stacey has ever cared for Ruth.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,192,-59.09691619873047,-48.3603515625,0
+Might Naomi ever boast about Ellen?,Naomi might ever boast about Ellen.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,193,-78.29554748535156,-70.40692138671875,0
+Has Wayne ever walked through public parks?,Wayne has ever walked through public parks.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,194,-59.620147705078125,-56.3871955871582,0
+Have those men ever hunted?,Those men have ever hunted.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,195,-43.414344787597656,-36.678688049316406,0
+Will Roger ever plan to complain about those guys?,Roger will ever plan to complain about those guys.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,196,-71.47726440429688,-59.476158142089844,0
+Had Grace ever boycotted that legislature?,Grace had ever boycotted that legislature.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,197,-80.28628540039062,-77.36241912841797,0
+Has Laurie ever figured out what hasn't blackened?,Laurie has ever figured out what hasn't blackened.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,198,-77.99507141113281,-72.13569641113281,0
+Have waiters ever explored every museum?,Waiters have ever explored every museum.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,199,-62.773895263671875,-53.274681091308594,0
+Can Stephanie ever badger every adult to exercise?,Stephanie can ever badger every adult to exercise.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,200,-86.20941162109375,-96.86033630371094,1
+Should Liam ever weep?,Liam should ever weep.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,201,-48.42325210571289,-48.989540100097656,1
+Had the skirts ever dried?,The skirts had ever dried.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,202,-47.96752166748047,-41.89445877075195,0
+Should Heather ever convince Carrie to learn?,Heather should ever convince Carrie to learn.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,203,-73.19994354248047,-61.599647521972656,0
+Has Carrie ever doubted Eric thought about what chars?,Carrie has ever doubted Eric thought about what chars.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,204,-90.8837890625,-85.94853973388672,0
+Do the books ever alarm Aaron?,The books do ever alarm Aaron.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,205,-60.995704650878906,-57.299190521240234,0
+Has Beverly ever won?,Beverly has ever won.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,206,-44.689414978027344,-41.174713134765625,0
+Can all legislatures ever benefit?,All legislatures can ever benefit.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,207,-49.99858093261719,-41.899322509765625,0
+Would Joel ever return to April?,Joel would ever return to April.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,208,-56.47249221801758,-47.867591857910156,0
+Had Christopher ever driven to this mall?,Christopher had ever driven to this mall.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,209,-64.70851135253906,-57.83911895751953,0
+Had Carla ever spurred David to blink?,Carla had ever spurred David to blink.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,210,-77.12229919433594,-64.51781463623047,0
+Had Dawn ever forgotten who hadn't compelled Edward's lawyer to wave?,Dawn had ever forgotten who hadn't compelled Edward's lawyer to wave.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,211,-107.383544921875,-104.26760864257812,0
+Have these actors ever explained everything?,These actors have ever explained everything.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,212,-49.32328796386719,-40.379920959472656,0
+Had Lissa ever discovered April?,Lissa had ever discovered April.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,213,-59.32903289794922,-47.99346160888672,0
+Could Gerald ever change?,Gerald could ever change.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,214,-48.50566864013672,-37.136497497558594,0
+Should all drivers ever interact?,All drivers should ever interact.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,215,-45.35503005981445,-41.230628967285156,0
+Will Melanie ever hurt Tiffany?,Melanie will ever hurt Tiffany.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,216,-56.81621551513672,-53.71826171875,0
+Had that coat ever warped?,That coat had ever warped.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,217,-50.41722869873047,-42.868621826171875,0
+Has Karla ever answered?,Karla has ever answered.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,218,-49.8259391784668,-38.27692413330078,0
+Can some doctors ever cheer?,Some doctors can ever cheer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,219,-51.4649772644043,-41.81939697265625,0
+Did most plays ever disagree with Gerald?,Most plays did ever disagree with Gerald.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,220,-63.687496185302734,-62.564815521240234,0
+Can Gary ever ascertain the skateboard to roll?,Gary can ever ascertain the skateboard to roll.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,221,-73.18685150146484,-67.52827453613281,0
+Would Jodi ever skate around Harvard University?,Jodi would ever skate around Harvard University.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,222,-76.60626220703125,-64.2033920288086,0
+Had Natalie ever drunk?,Natalie had ever drunk.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,223,-45.44561004638672,-40.91626739501953,0
+Has Jacqueline ever insulted John?,Jacqueline has ever insulted John.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,224,-61.10368347167969,-58.58692169189453,0
+Does some skirt ever stretch?,Some skirt does ever stretch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,225,-53.67088317871094,-49.09416961669922,0
+Might Bethany ever love this movie?,Bethany might ever love this movie.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,226,-62.859527587890625,-57.688499450683594,0
+Has Diana ever remembered Heather?,Diana has ever remembered Heather.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,227,-59.17450714111328,-50.96113967895508,0
+Might a lot of patients ever debate?,A lot of patients might ever debate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,228,-64.24889373779297,-44.66023254394531,0
+Might all windows ever irritate Lawrence?,All windows might ever irritate Lawrence.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,229,-78.87639617919922,-62.918968200683594,0
+Has that jacket ever twisted?,That jacket has ever twisted.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,230,-51.496070861816406,-41.01441955566406,0
+Has Bradley ever sounded like that closet?,Bradley has ever sounded like that closet.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,231,-67.78587341308594,-59.53114318847656,0
+Did Sonia ever watch Jane?,Sonia did ever watch Jane.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,232,-57.37333297729492,-55.66432189941406,0
+Has Tammy ever gone fishing?,Tammy has ever gone fishing.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,233,-51.39893341064453,-49.294944763183594,0
+Does every apple ever scorch?,Every apple does ever scorch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,234,-53.52784729003906,-55.03643798828125,1
+Should Benjamin ever fall?,Benjamin should ever fall.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,235,-44.80598068237305,-47.3199462890625,1
+Might Clyde ever cry?,Clyde might ever cry.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,236,-56.14856719970703,-52.796348571777344,0
+Will Vanessa ever pressure Homer's dermatologist to complain?,Vanessa will ever pressure Homer's dermatologist to complain.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,237,-93.7099609375,-81.6498031616211,0
+Had Adam ever compromised?,Adam had ever compromised.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,238,-42.55413818359375,-35.50031280517578,0
+Had Kathleen ever hired most men?,Kathleen had ever hired most men.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,239,-59.49927520751953,-58.502201080322266,0
+Had this coat ever twirled?,This coat had ever twirled.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,240,-58.28016662597656,-47.67340850830078,0
+Had some plane ever accelerated?,Some plane had ever accelerated.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,241,-50.7891845703125,-41.97600173950195,0
+Could Harvard University ever confuse Galileo?,Harvard University could ever confuse Galileo.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,242,-69.62429809570312,-64.20530700683594,0
+Might all dancers ever explore the Great Lakes?,All dancers might ever explore the Great Lakes.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,243,-77.31723022460938,-58.20511245727539,0
+Has Cheryl ever happened to hide?,Cheryl has ever happened to hide.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,244,-54.44594955444336,-61.02989196777344,1
+Should Claire ever cough?,Claire should ever cough.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,245,-51.013916015625,-47.10493087768555,0
+Has this university ever approved?,This university has ever approved.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,246,-46.47294235229492,-35.22127914428711,0
+Can Rachel ever hunt?,Rachel can ever hunt.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,247,-43.559722900390625,-38.994407653808594,0
+Had Veronica ever disgusted Tracy?,Veronica had ever disgusted Tracy.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,248,-61.338443756103516,-59.029396057128906,0
+Does that legislature ever succeed?,That legislature does ever succeed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,249,-48.23371124267578,-42.87350845336914,0
+Should these museums ever forget what would turn?,These museums should ever forget what would turn.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,250,-64.00798034667969,-57.87678527832031,0
+Would Kayla ever hurt Eric?,Kayla would ever hurt Eric.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,251,-59.98714065551758,-55.88317108154297,0
+Can those guests ever intend to think about the couch?,Those guests can ever intend to think about the couch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,252,-64.79698181152344,-61.24681091308594,0
+Will Emily ever happen to marry?,Emily will ever happen to marry.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,253,-51.33612060546875,-40.440834045410156,0
+Can some girls ever kiss?,Some girls can ever kiss.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,254,-46.91328430175781,-37.61700439453125,0
+Can Steven ever tour the mall?,Steven can ever tour the mall.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,255,-58.181053161621094,-51.76747131347656,0
+Have those rivers ever vaporized?,Those rivers have ever vaporized.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,256,-53.21161651611328,-46.153907775878906,0
+Should the glaciers ever melt?,The glaciers should ever melt.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,257,-46.094261169433594,-45.42411804199219,0
+Had these lights ever brightened?,These lights had ever brightened.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,258,-54.59630584716797,-44.017333984375,0
+Do some ladies ever conceal who explored some restaurant?,Some ladies do ever conceal who explored some restaurant.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,259,-79.41355895996094,-77.63253784179688,0
+Has Jennifer ever hugged Aaron?,Jennifer has ever hugged Aaron.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,260,-56.172027587890625,-45.75336837768555,0
+Should most dancers ever compete?,Most dancers should ever compete.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,261,-47.632328033447266,-45.634620666503906,0
+Would Tammy ever have some mushrooms?,Tammy would ever have some mushrooms.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,262,-55.16712951660156,-56.99870681762695,1
+Had Lawrence ever found Helen?,Lawrence had ever found Helen.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,263,-54.01332092285156,-50.35284423828125,0
+Has Beverly ever fixed that unicycle?,Beverly has ever fixed that unicycle.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,264,-71.5600357055664,-70.05735778808594,0
+Could Phillip ever drive to a mall?,Phillip could ever drive to a mall.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,265,-64.86553955078125,-58.712371826171875,0
+Did that patient ever doubt Anna saw?,That patient did ever doubt Anna saw.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,266,-66.04365539550781,-62.20857238769531,0
+Has Phillip ever compromised?,Phillip has ever compromised.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,267,-47.78057098388672,-40.976226806640625,0
+Will the Lutherans ever describe Chad?,The Lutherans will ever describe Chad.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,268,-64.66983032226562,-55.96870422363281,0
+Had Mitchell ever smiled?,Mitchell had ever smiled.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,269,-45.92860794067383,-45.675926208496094,0
+Has this dress ever twirled?,This dress has ever twirled.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,270,-53.52017593383789,-44.98469543457031,0
+Had Rose ever changed?,Rose had ever changed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,271,-41.209068298339844,-30.137691497802734,0
+Does Richard ever manage to go fishing?,Richard does ever manage to go fishing.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,272,-60.73029708862305,-57.10232162475586,0
+Has a bank ever neglected to profit?,A bank has ever neglected to profit.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,273,-53.74246597290039,-49.008209228515625,0
+Had all convertibles ever moved?,All convertibles had ever moved.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,274,-56.859703063964844,-45.777015686035156,0
+Had Steven ever climbed down this mountain?,Steven had ever climbed down this mountain.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,275,-64.12939453125,-53.255069732666016,0
+Could Carla ever salute?,Carla could ever salute.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,276,-54.731346130371094,-46.4473991394043,0
+Might every driver ever appear to know Bethany?,Every driver might ever appear to know Bethany.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,277,-77.23805236816406,-60.22108459472656,0
+Had Ruth ever turned out to testify?,Ruth had ever turned out to testify.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,278,-54.664283752441406,-47.9595947265625,0
+Had Dennis ever found Tiffany?,Dennis had ever found Tiffany.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,279,-56.24286651611328,-46.05742645263672,0
+Might those waitresses ever cooperate?,Those waitresses might ever cooperate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,280,-68.0834732055664,-58.156211853027344,0
+Might James ever perform?,James might ever perform.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,281,-54.241641998291016,-36.72120666503906,0
+Could Tanya ever return to Mary?,Tanya could ever return to Mary.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,282,-62.67080307006836,-52.84157943725586,0
+Can all dancers ever find this skateboard?,All dancers can ever find this skateboard.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,283,-64.41801452636719,-55.258209228515625,0
+Had Lawrence ever observed Wayne?,Lawrence had ever observed Wayne.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,284,-59.371734619140625,-55.00135803222656,0
+Had that university ever surrendered?,That university had ever surrendered.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,285,-52.917633056640625,-45.99458694458008,0
+Has this museum ever revealed who perform?,This museum has ever revealed who perform.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,286,-64.50439453125,-54.328922271728516,0
+Has Jason ever wept?,Jason has ever wept.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,287,-53.550758361816406,-45.137962341308594,0
+Have some girls ever descended most steps?,Some girls have ever descended most steps.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,288,-55.345375061035156,-51.352027893066406,0
+Had Harvard University ever remembered what might chat?,Harvard University had ever remembered what might chat.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,289,-74.66270446777344,-66.96285247802734,0
+Has Rhonda ever read?,Rhonda has ever read.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,290,-50.363677978515625,-42.549072265625,0
+Has Stacey ever woken up?,Stacey has ever woken up.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,291,-57.527706146240234,-45.51068115234375,0
+Do gloves ever disappear?,Gloves do ever disappear.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,292,-38.11673355102539,-42.0926628112793,1
+Did Samuel ever suffer?,Samuel did ever suffer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,293,-47.096435546875,-45.52082824707031,0
+Could Carmen ever cough?,Carmen could ever cough.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,294,-53.335514068603516,-52.07025146484375,0
+Might the woman ever scratch?,The woman might ever scratch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,295,-56.70103454589844,-38.53995132446289,0
+Can that icicle ever aggravate Tonya?,That icicle can ever aggravate Tonya.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,296,-84.69993591308594,-78.42810821533203,0
+Might Carmen ever hate this guest?,Carmen might ever hate this guest.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,297,-71.17266845703125,-64.13703918457031,0
+Should Tracy ever get fired?,Tracy should ever get fired.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,298,-47.681190490722656,-49.56587219238281,1
+Does Julie ever drive to grocery stores?,Julie does ever drive to grocery stores.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,299,-57.16153335571289,-57.81162643432617,1
+Had some actors ever pushed the girls' supervisor to dislike Larry?,Some actors had ever pushed the girls' supervisor to dislike Larry.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,300,-94.12470245361328,-88.61150360107422,0
+Had Russell ever kissed Anna?,Russell had ever kissed Anna.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,301,-51.58395767211914,-44.95824432373047,0
+Had a lot of gates ever closed?,A lot of gates had ever closed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,302,-45.798484802246094,-44.259117126464844,0
+Has this adult ever wondered who can debate?,This adult has ever wondered who can debate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,303,-63.96030807495117,-58.08665466308594,0
+Should Maria ever talk about Scott?,Maria should ever talk about Scott.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,304,-56.55535888671875,-49.88977813720703,0
+Can some lamp ever darken?,Some lamp can ever darken.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,305,-54.87668991088867,-49.27296829223633,0
+Had Brian ever believed all couches to slip?,Brian had ever believed all couches to slip.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,306,-77.72760009765625,-66.50987243652344,0
+Can the lady ever move?,The lady can ever move.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,307,-44.62078857421875,-38.78716278076172,0
+Might Rebecca ever distract Jeffrey?,Rebecca might ever distract Jeffrey.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,308,-73.923583984375,-59.9600830078125,0
+Had Teresa ever gone to a lot of rivers?,Teresa had ever gone to a lot of rivers.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,309,-64.62930297851562,-61.710933685302734,0
+Has Tara ever found these mirrors?,Tara has ever found these mirrors.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,310,-57.84743118286133,-51.28251647949219,0
+Had Jodi ever written?,Jodi had ever written.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,311,-49.77544403076172,-36.048980712890625,0
+Has Gregory ever refused to discuss Becky?,Gregory has ever refused to discuss Becky.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,312,-61.84436798095703,-55.842987060546875,0
+Might Roger ever hide away?,Roger might ever hide away.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,313,-59.6673583984375,-46.95512771606445,0
+Have some gloves ever flattened?,Some gloves have ever flattened.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,314,-46.547306060791016,-40.51708221435547,0
+Can a lot of men ever exist?,A lot of men can ever exist.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,315,-45.90632629394531,-39.11625289916992,0
+Has Christina ever nodded?,Christina has ever nodded.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,316,-43.87801742553711,-40.20155334472656,0
+Would Leslie ever skate around every public park?,Leslie would ever skate around every public park.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,317,-72.27729797363281,-72.88311767578125,1
+Has Jane ever practiced?,Jane has ever practiced.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,318,-41.84701919555664,-31.46558380126953,0
+Have most actors ever disagreed?,Most actors have ever disagreed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,319,-40.54560470581055,-36.6302375793457,0
+Has the legislature ever profited?,The legislature has ever profited.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,320,-46.982845306396484,-40.33818435668945,0
+Will that museum ever reference Ellen?,That museum will ever reference Ellen.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,321,-69.27359771728516,-58.58629608154297,0
+Has Peter ever healed Marie?,Peter has ever healed Marie.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,322,-55.492164611816406,-49.76617431640625,0
+Has Charles ever needed to cure Julie?,Charles has ever needed to cure Julie.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,323,-69.48104858398438,-56.670806884765625,0
+Has Gary ever played?,Gary has ever played.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,324,-39.52113342285156,-30.721755981445312,0
+Had Martin ever alarmed Michael?,Martin had ever alarmed Michael.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,325,-57.68563461303711,-52.031883239746094,0
+Has Phillip ever preferred Patrick to bake?,Phillip has ever preferred Patrick to bake.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,326,-72.89561462402344,-69.163818359375,0
+Might most teenagers ever win?,Most teenagers might ever win.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,327,-55.93968963623047,-37.47593688964844,0
+Could Sheila ever forget what vaporized?,Sheila could ever forget what vaporized.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,328,-70.01190948486328,-62.20204162597656,0
+Had a skirt ever stretched?,A skirt had ever stretched.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,329,-42.7293815612793,-37.31180191040039,0
+Had Rebecca ever appeared to stun Cheryl?,Rebecca had ever appeared to stun Cheryl.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,330,-66.45503234863281,-60.517513275146484,0
+Did Katherine ever convince most nephews of Amelia to cooperate?,Katherine did ever convince most nephews of Amelia to cooperate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,331,-94.1899185180664,-92.206787109375,0
+Would the Impressionists ever fight?,The Impressionists would ever fight.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,332,-53.8630256652832,-44.82341003417969,0
+Could Alice ever nod?,Alice could ever nod.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,333,-46.3709831237793,-38.38043212890625,0
+Had Becca ever want to waste away?,Becca had ever want to waste away.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,334,-61.1300048828125,-57.89710235595703,0
+Has Kayla ever said the Borgias chuckle?,Kayla has ever said the Borgias chuckle.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,335,-87.54354858398438,-80.94371032714844,0
+Should Guy ever listen to Brian?,Guy should ever listen to Brian.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,336,-49.8704948425293,-46.43120574951172,0
+Could Charles ever wear a hat?,Charles could ever wear a hat.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,337,-51.75724792480469,-43.35333251953125,0
+Has Rachelle ever believed some newspaper article to disagree?,Rachelle has ever believed some newspaper article to disagree.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,338,-86.19849395751953,-78.38961791992188,0
+Should Samuel ever stretch?,Samuel should ever stretch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,339,-49.07636260986328,-48.829811096191406,0
+Did the doctor ever beg the university to bore Vincent?,The doctor did ever beg the university to bore Vincent.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,340,-87.92534637451172,-83.95734405517578,0
+Had George ever died?,George had ever died.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,341,-42.702980041503906,-32.273616790771484,0
+Would some wheelbarrow ever shatter?,Some wheelbarrow would ever shatter.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,342,-61.345211029052734,-56.27351379394531,0
+Should some ice ever melt?,Some ice should ever melt.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,343,-45.38078308105469,-42.16674041748047,0
+Might this jacket ever twist?,This jacket might ever twist.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,344,-59.319580078125,-40.05126190185547,0
+Has Rebecca ever driven to some closet?,Rebecca has ever driven to some closet.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,345,-69.79400634765625,-57.82490539550781,0
+Had Mark ever climbed down this mountain?,Mark had ever climbed down this mountain.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,346,-62.43406295776367,-49.641334533691406,0
+Has Lisa ever joked around?,Lisa has ever joked around.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,347,-51.44997787475586,-41.258872985839844,0
+Could a candle ever dim?,A candle could ever dim.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,348,-46.845909118652344,-44.71219253540039,0
+Will all adults ever stretch?,All adults will ever stretch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,349,-50.01287841796875,-38.45397186279297,0
+Have the waiters ever praised Julia?,The waiters have ever praised Julia.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,350,-57.21598815917969,-52.39569091796875,0
+Have some icicles ever vaporized?,Some icicles have ever vaporized.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,351,-64.54586029052734,-57.1388053894043,0
+Would Deanna ever clean most gloves?,Deanna would ever clean most gloves.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,352,-66.95551300048828,-62.7862434387207,0
+Has a mushroom ever charred?,A mushroom has ever charred.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,353,-47.051177978515625,-44.905452728271484,0
+Will Vanessa ever commission Connie to escape?,Vanessa will ever commission Connie to escape.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,354,-76.43814086914062,-68.24436950683594,0
+Had that art gallery ever existed?,That art gallery had ever existed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,355,-49.23726272583008,-44.31825256347656,0
+Has Victoria ever spun around?,Victoria has ever spun around.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,356,-51.23240661621094,-42.811561584472656,0
+Would Jane ever compel Lissa to answer?,Jane would ever compel Lissa to answer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,357,-74.94367980957031,-65.53448486328125,0
+Would every patient ever explain everything?,Every patient would ever explain everything.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,358,-52.381568908691406,-45.689090728759766,0
+Did the mouths ever stun Jesus?,The mouths did ever stun Jesus.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,359,-55.9086799621582,-54.603309631347656,0
+Has Tara ever stretched?,Tara has ever stretched.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,360,-44.9371337890625,-38.29680252075195,0
+Will Kristin ever yearn to remember a teacher?,Kristin will ever yearn to remember a teacher.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,361,-83.85768127441406,-74.70616149902344,0
+Can Richard ever pass the hill?,Richard can ever pass the hill.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,362,-59.27760314941406,-50.83207702636719,0
+Has Jodi ever cooked?,Jodi has ever cooked.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,363,-49.12891387939453,-36.666481018066406,0
+Has this dress ever crumpled?,This dress has ever crumpled.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,364,-54.714317321777344,-50.04682540893555,0
+Has Kimberley ever disturbed a lot of teenagers?,Kimberley has ever disturbed a lot of teenagers.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,365,-60.223960876464844,-58.1676139831543,0
+Has Danielle ever appeared to fire Theresa?,Danielle has ever appeared to fire Theresa.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,366,-65.07356262207031,-63.83706283569336,0
+Would some actors ever benefit?,Some actors would ever benefit.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,367,-47.46388244628906,-41.217445373535156,0
+Has Heidi ever sneezed?,Heidi has ever sneezed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,368,-56.96165084838867,-48.53303527832031,0
+Had Candice ever tried to hurt Tara?,Candice had ever tried to hurt Tara.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,369,-67.94422149658203,-62.820274353027344,0
+Had Gary ever confused some cashier?,Gary had ever confused some cashier.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,370,-69.01313781738281,-61.56477355957031,0
+Could Aaron ever exercise?,Aaron could ever exercise.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,371,-49.44134521484375,-37.89500427246094,0
+Should Dawn ever yearn to worry Joseph?,Dawn should ever yearn to worry Joseph.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,372,-78.03131103515625,-85.80931091308594,1
+Can Cindy ever leave?,Cindy can ever leave.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,373,-40.659637451171875,-44.16602325439453,1
+Has Margaret ever hated Jill?,Margaret has ever hated Jill.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,374,-53.82742691040039,-52.511260986328125,0
+Could Elizabeth ever implore every nephew of Karen to disgust that pedestrian?,Elizabeth could ever implore every nephew of Karen to disgust that pedestrian.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,375,-123.10628509521484,-116.86810302734375,0
+Had some legislature ever testified?,Some legislature had ever testified.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,376,-52.02790832519531,-41.62636184692383,0
+Had most organizations ever collaborated?,Most organizations had ever collaborated.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,377,-45.19334411621094,-42.38410186767578,0
+Have the Impressionists ever benefited?,The Impressionists have ever benefited.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,378,-49.449378967285156,-39.205604553222656,0
+Can Thomas ever alarm Tammy?,Thomas can ever alarm Tammy.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,379,-58.665016174316406,-58.559425354003906,0
+Had the Clintons ever forfeited?,The Clintons had ever forfeited.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,380,-57.83955383300781,-50.816436767578125,0
+Might Kristen ever joke around?,Kristen might ever joke around.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,381,-64.02849578857422,-52.44247055053711,0
+Can the socks ever crumple?,The socks can ever crumple.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,382,-62.929203033447266,-55.17247772216797,0
+Does Brian ever fall asleep?,Brian does ever fall asleep.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,383,-45.6461181640625,-41.90262985229492,0
+Would Gerald ever break the computer?,Gerald would ever break the computer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,384,-60.77201461791992,-51.80021286010742,0
+Had the rice ever burned?,The rice had ever burned.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,385,-44.6371955871582,-35.677669525146484,0
+Has Marla ever departed?,Marla has ever departed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,386,-50.35527801513672,-40.501827239990234,0
+Would an adult ever cough?,An adult would ever cough.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,387,-45.92350769042969,-43.59741973876953,0
+Have a lot of governments ever pressed people's contractor to mess up these glasses?,A lot of governments have ever pressed people's contractor to mess up these glasses.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,388,-94.25590515136719,-94.496337890625,1
+Could Matt ever scream?,Matt could ever scream.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,389,-47.158531188964844,-37.49386215209961,0
+Can Carmen ever hurt these guys?,Carmen can ever hurt these guys.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,390,-56.29765319824219,-56.40199661254883,1
+Will Martin ever walk through most art galleries?,Martin will ever walk through most art galleries.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,391,-66.4232177734375,-58.94056701660156,0
+Did Alicia ever wonder what might drop?,Alicia did ever wonder what might drop.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,392,-60.184078216552734,-66.8961410522461,1
+Had that shawl ever folded?,That shawl had ever folded.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,393,-61.84452438354492,-56.67455291748047,0
+Should doors ever close?,Doors should ever close.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,394,-42.784568786621094,-44.55584716796875,1
+Can William ever bring every truck?,William can ever bring every truck.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,395,-63.787288665771484,-51.992835998535156,0
+Will that newspaper article ever fall?,That newspaper article will ever fall.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,396,-60.00049591064453,-47.45026397705078,0
+Could Maria ever observe every cashier?,Maria could ever observe every cashier.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,397,-73.48536682128906,-59.8371696472168,0
+Should many people ever depart?,Many people should ever depart.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,398,-42.46501541137695,-35.43894958496094,0
+Had Richard ever impressed Michael?,Richard had ever impressed Michael.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,399,-54.75177764892578,-45.06493377685547,0
+Has Linda ever cared for Patrick?,Linda has ever cared for Patrick.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,400,-52.477264404296875,-47.803138732910156,0
+Should Claire ever bake?,Claire should ever bake.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,401,-46.26126480102539,-43.581459045410156,0
+Might Cynthia ever entice Eva to scan some story?,Cynthia might ever entice Eva to scan some story.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,402,-100.60635375976562,-95.8858413696289,0
+Did Eric ever alarm these universities?,Eric did ever alarm these universities.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,403,-70.6317367553711,-66.08245849609375,0
+Has Karla ever questioned Noah?,Karla has ever questioned Noah.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,404,-62.64124298095703,-52.321022033691406,0
+Could Donald ever persuade some actors' father to cheer?,Donald could ever persuade some actors' father to cheer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,405,-92.3794174194336,-79.87115478515625,0
+Has Tanya ever needed a lot of commentaries to disagree with those waitresses?,Tanya has ever needed a lot of commentaries to disagree with those waitresses.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,406,-109.27799987792969,-97.84880828857422,0
+Have all coats ever twirled?,All coats have ever twirled.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,407,-53.58274841308594,-48.526222229003906,0
+Does Claire ever regret banks aren't cooperating?,Claire does ever regret banks aren't cooperating.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,408,-75.40306091308594,-78.86992645263672,1
+Should Spain ever reply?,Spain should ever reply.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,409,-41.98920822143555,-40.07566833496094,0
+Had pants ever shrunk?,Pants had ever shrunk.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,410,-41.633949279785156,-42.476341247558594,1
+Should Samantha ever remember what won't alarm many associations?,Samantha should ever remember what won't alarm many associations.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,411,-92.69255828857422,-95.75782775878906,1
+Have some doctors ever shouted?,Some doctors have ever shouted.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,412,-41.38465881347656,-38.936500549316406,0
+Had Dan ever joked around?,Dan had ever joked around.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,413,-49.7709846496582,-43.432701110839844,0
+Had Pamela ever sat down?,Pamela had ever sat down.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,414,-48.03040313720703,-46.982521057128906,0
+Might Chad ever press Tara's lawyer to donate?,Chad might ever press Tara's lawyer to donate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,415,-95.65046691894531,-83.33915710449219,0
+Would Karen ever drop by some hospital?,Karen would ever drop by some hospital.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,416,-70.31838989257812,-64.29467010498047,0
+Should Benjamin ever complain?,Benjamin should ever complain.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,417,-42.692230224609375,-46.414817810058594,1
+Should some senator ever bother to heal Russell?,Some senator should ever bother to heal Russell.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,418,-73.3709716796875,-68.13631439208984,0
+Will Vincent ever grin?,Vincent will ever grin.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,419,-49.45240783691406,-48.53182601928711,0
+Would this patient ever argue?,This patient would ever argue.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,420,-50.01663589477539,-41.07033157348633,0
+Has Mary ever seen?,Mary has ever seen.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,421,-38.899044036865234,-29.459278106689453,0
+Would Chad ever murmur?,Chad would ever murmur.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,422,-55.38975143432617,-53.77317428588867,0
+Should Ruth ever vanish?,Ruth should ever vanish.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,423,-44.83472442626953,-44.99634552001953,1
+Has Raymond ever known Laura?,Raymond has ever known Laura.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,424,-50.051483154296875,-46.23483657836914,0
+Will those turtles ever irritate Walter?,Those turtles will ever irritate Walter.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,425,-75.12967681884766,-63.94038391113281,0
+Can a cashier ever heal Teresa?,A cashier can ever heal Teresa.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,426,-74.85067749023438,-67.03772735595703,0
+Has a company ever concealed who visit some museums?,A company has ever concealed who visit some museums.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,427,-77.84788513183594,-71.83802795410156,0
+Might the eye ever close?,The eye might ever close.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,428,-55.0577507019043,-38.171974182128906,0
+Had the mirror ever cracked?,The mirror had ever cracked.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,429,-46.861534118652344,-39.007286071777344,0
+Had some painting ever looked like Pamela?,Some painting had ever looked like Pamela.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,430,-62.462547302246094,-56.628299713134766,0
+Could Patrick ever investigate Bruce?,Patrick could ever investigate Bruce.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,431,-60.215126037597656,-49.94565963745117,0
+Had that gate ever flung open?,That gate had ever flung open.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,432,-64.30403900146484,-56.155311584472656,0
+Will Derek ever complain?,Derek will ever complain.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,433,-44.99473190307617,-39.33891296386719,0
+Would some skateboards ever fall apart?,Some skateboards would ever fall apart.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,434,-53.36030960083008,-48.57518768310547,0
+Could a driver ever talk to Laura?,A driver could ever talk to Laura.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,435,-56.19970703125,-46.838043212890625,0
+Might Cheryl ever praise Laura?,Cheryl might ever praise Laura.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,436,-67.35084533691406,-72.67115783691406,1
+Had Joseph ever known Tamara?,Joseph had ever known Tamara.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,437,-56.699195861816406,-48.787078857421875,0
+Does some blouse ever warp?,Some blouse does ever warp.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,438,-56.74315643310547,-56.87967300415039,1
+Did every carriage ever drop?,Every carriage did ever drop.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,439,-44.516151428222656,-42.83713912963867,0
+Had Sharon ever embarrassed Paul?,Sharon had ever embarrassed Paul.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,440,-55.6819953918457,-51.22991180419922,0
+Does Amelia ever propose to disappear?,Amelia does ever propose to disappear.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,441,-55.23835372924805,-58.5240364074707,1
+Had Karla ever pressed Rose to irritate Nicole?,Karla had ever pressed Rose to irritate Nicole.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,442,-90.46289825439453,-79.91949462890625,0
+Have all spotlights ever appeared?,All spotlights have ever appeared.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,443,-51.245140075683594,-43.6891975402832,0
+Had Ellen ever hunted?,Ellen had ever hunted.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,444,-47.10652160644531,-40.014190673828125,0
+Will the waiters ever find Tanya to concur?,The waiters will ever find Tanya to concur.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,445,-80.37934875488281,-74.03813171386719,0
+Has the convertible ever resembled paintings?,The convertible has ever resembled paintings.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,446,-60.35909652709961,-50.84067153930664,0
+Has Jason ever astounded some children?,Jason has ever astounded some children.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,447,-65.39531707763672,-53.34972381591797,0
+Would Steven ever propose to disgust Jason?,Steven would ever propose to disgust Jason.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,448,-76.333984375,-70.61095428466797,0
+Had most trucks ever turned?,Most trucks had ever turned.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,449,-44.42664337158203,-37.79163360595703,0
+Had Daniel ever doubted Alexander hadn't hired Melanie?,Daniel had ever doubted Alexander hadn't hired Melanie.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,450,-90.84461975097656,-83.26695251464844,0
+Has Andrew ever cheered?,Andrew has ever cheered.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,451,-45.3931884765625,-34.5816764831543,0
+Has every person ever regretted a lot of guys stretch?,Every person has ever regretted a lot of guys stretch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,452,-74.15335845947266,-62.628543853759766,0
+Might Veronica ever hunt?,Veronica might ever hunt.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,453,-55.932186126708984,-45.16277313232422,0
+Has that screen ever faded?,That screen has ever faded.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,454,-49.587581634521484,-39.58818054199219,0
+Would Erin ever play?,Erin would ever play.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,455,-44.19633483886719,-40.13580322265625,0
+Might Aaron ever compromise?,Aaron might ever compromise.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,456,-54.727176666259766,-34.96106719970703,0
+Have those vases ever shattered?,Those vases have ever shattered.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,457,-52.24284362792969,-45.90044403076172,0
+Has Sally ever needed to respect Carl?,Sally has ever needed to respect Carl.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,458,-66.093017578125,-58.86336135864258,0
+Had that hat ever frayed?,That hat had ever frayed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,459,-55.83598327636719,-45.027069091796875,0
+Had Elizabeth ever wanted Amanda to paint?,Elizabeth had ever wanted Amanda to paint.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,460,-63.70732879638672,-54.60246658325195,0
+Can every waiter ever urge Sharon to stun every organization?,Every waiter can ever urge Sharon to stun every organization.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,461,-87.8282470703125,-83.90895080566406,0
+Had Vanessa ever concurred?,Vanessa had ever concurred.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,462,-53.235321044921875,-45.318912506103516,0
+Has Vanessa ever dared every teenager's ex-husband to reference some book?,Vanessa has ever dared every teenager's ex-husband to reference some book.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,463,-108.7236328125,-103.16908264160156,0
+Had some waitresses ever swallowed?,Some waitresses had ever swallowed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,464,-60.69119644165039,-58.126678466796875,0
+Does Sara ever bring the gate?,Sara does ever bring the gate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,465,-56.59592819213867,-54.57219314575195,0
+Have a lot of dogs ever aggravated students?,A lot of dogs have ever aggravated students.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,466,-54.85365295410156,-52.1416015625,0
+Should Judy ever sigh?,Judy should ever sigh.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,467,-50.67404556274414,-43.6025276184082,0
+Did Jeffrey ever wonder who was yawning?,Jeffrey did ever wonder who was yawning.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,468,-67.21788787841797,-62.520931243896484,0
+Could Regina ever disappear?,Regina could ever disappear.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,469,-48.74938201904297,-41.79889678955078,0
+Will all teachers ever boast about Benjamin?,All teachers will ever boast about Benjamin.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,470,-72.62925720214844,-64.36223602294922,0
+Will Frank ever hire most people?,Frank will ever hire most people.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,471,-56.16307830810547,-51.37263870239258,0
+Can Martin ever find out who wept?,Martin can ever find out who wept.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,472,-66.88372802734375,-61.515079498291016,0
+Should these teachers ever protest?,These teachers should ever protest.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,473,-51.313079833984375,-44.57522201538086,0
+Had Gregory ever loved Diane?,Gregory had ever loved Diane.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,474,-53.91606903076172,-50.22332763671875,0
+Has Alice ever advised Stacey to answer?,Alice has ever advised Stacey to answer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,475,-69.64871978759766,-56.09569549560547,0
+Did Eva ever observe Carl?,Eva did ever observe Carl.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,476,-59.839080810546875,-51.99819564819336,0
+Had Valerie ever insulted Melanie?,Valerie had ever insulted Melanie.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,477,-61.948143005371094,-61.093929290771484,0
+Had this guest ever seen most libraries?,This guest had ever seen most libraries.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,478,-57.73589324951172,-48.01048278808594,0
+Has Tiffany ever grinned?,Tiffany has ever grinned.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,479,-45.117515563964844,-49.95940399169922,1
+Can Deborah ever leave?,Deborah can ever leave.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,480,-42.95711898803711,-40.026451110839844,0
+Has Veronica ever thought about a lot of tomatoes?,Veronica has ever thought about a lot of tomatoes.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,481,-61.76628494262695,-57.80282211303711,0
+Has a wheelbarrow ever turned?,A wheelbarrow has ever turned.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,482,-55.94898986816406,-51.01646423339844,0
+Can the teachers ever think about what falls apart?,The teachers can ever think about what falls apart.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,483,-63.10982131958008,-57.305198669433594,0
+Has Catherine ever hunted?,Catherine has ever hunted.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,484,-46.963775634765625,-38.343780517578125,0
+Will Timothy ever think about a movie theater?,Timothy will ever think about a movie theater.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,485,-62.42809295654297,-58.9030647277832,0
+Has Liam ever passed the mall?,Liam has ever passed the mall.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,486,-52.79120635986328,-52.56884765625,0
+Had that chicken ever blackened?,That chicken had ever blackened.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,487,-55.177978515625,-49.762420654296875,0
+Might Stephen ever stretch?,Stephen might ever stretch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,488,-59.511356353759766,-42.98656463623047,0
+Will many waiters ever train?,Many waiters will ever train.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,489,-53.55521774291992,-47.22615432739258,0
+Can Claire ever go fishing?,Claire can ever go fishing.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,490,-50.844112396240234,-45.86095428466797,0
+Had Vincent ever convinced Dennis to swallow?,Vincent had ever convinced Dennis to swallow.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,491,-74.61433410644531,-77.02140808105469,1
+Can many patients ever disagree?,Many patients can ever disagree.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,492,-48.21794891357422,-39.71152877807617,0
+Would most convertibles ever crash?,Most convertibles would ever crash.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,493,-54.919517517089844,-51.58295440673828,0
+Had Gary ever performed?,Gary had ever performed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,494,-42.2266845703125,-34.0423583984375,0
+Does Alan ever irritate a lot of waitresses?,Alan does ever irritate a lot of waitresses.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,495,-80.51408386230469,-73.6632080078125,0
+Can Wendy ever regret Lisa ascends some slope?,Wendy can ever regret Lisa ascends some slope.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,496,-95.1373291015625,-96.74633026123047,1
+Could Edward ever laugh?,Edward could ever laugh.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,497,-44.81448745727539,-37.22153854370117,0
+Might Sandra ever win?,Sandra might ever win.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,498,-56.26225662231445,-42.655860900878906,0
+Does Anne ever prod Steve's teacher to whisper?,Anne does ever prod Steve's teacher to whisper.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,499,-85.85618591308594,-80.59722900390625,0
+Had most ladders ever astounded Martin?,Most ladders had ever astounded Martin.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,500,-70.99070739746094,-67.18791198730469,0
+Had most legislatures ever coped?,Most legislatures had ever coped.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,501,-56.035667419433594,-49.72444152832031,0
+Has some light ever dimmed?,Some light has ever dimmed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,502,-53.44831848144531,-43.569541931152344,0
+Might a lot of pedestrians ever reunite?,A lot of pedestrians might ever reunite.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,503,-66.41574096679688,-47.715484619140625,0
+Can drivers ever disagree with Aaron?,Drivers can ever disagree with Aaron.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,504,-56.18171691894531,-52.14963912963867,0
+Had those dresses ever twisted?,Those dresses had ever twisted.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,505,-49.521820068359375,-42.64626693725586,0
+Would a lot of socks ever crumple?,A lot of socks would ever crumple.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,506,-64.41342163085938,-59.93572998046875,0
+Would some hospital ever press Mitchell's classmates to insult that high school?,Some hospital would ever press Mitchell's classmates to insult that high school.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,507,-107.16389465332031,-99.79228210449219,0
+Might Elizabeth ever fix many mirrors?,Elizabeth might ever fix many mirrors.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,508,-74.98567199707031,-59.557674407958984,0
+Has Victoria ever considered those carriages to turn?,Victoria has ever considered those carriages to turn.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,509,-76.31937408447266,-68.06045532226562,0
+Could bikes ever stop?,Bikes could ever stop.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,510,-41.888389587402344,-37.03192138671875,0
+Had the Lutherans ever retaliated?,The Lutherans had ever retaliated.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,511,-56.1334228515625,-44.730621337890625,0
+Should those pants ever flatten?,Those pants should ever flatten.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,512,-53.25252914428711,-50.32754898071289,0
+Has Sonia ever astounded Amelia?,Sonia has ever astounded Amelia.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,513,-68.86668395996094,-60.90553665161133,0
+Did the forks ever shatter?,The forks did ever shatter.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,514,-46.18525314331055,-45.58167266845703,0
+Has Alice ever revealed Laura?,Alice has ever revealed Laura.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,515,-52.16665267944336,-39.792362213134766,0
+Might Andrea ever spur that cashier to alarm Gregory?,Andrea might ever spur that cashier to alarm Gregory.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,516,-113.20248413085938,-103.09344482421875,0
+Have some men ever examined plays?,Some men have ever examined plays.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,517,-55.711097717285156,-46.91559600830078,0
+Had Holly ever waved?,Holly had ever waved.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,518,-45.78727722167969,-40.192745208740234,0
+Does Patricia ever weep?,Patricia does ever weep.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,519,-45.331783294677734,-50.50189971923828,1
+Had Jerry ever exercised?,Jerry had ever exercised.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,520,-43.983245849609375,-34.22513198852539,0
+Had that mirror ever looked like every picture?,That mirror had ever looked like every picture.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,521,-62.00408172607422,-57.83485412597656,0
+Would Carol ever question Jeffrey?,Carol would ever question Jeffrey.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,522,-55.98405456542969,-59.557586669921875,1
+Had some teachers ever departed?,Some teachers had ever departed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,523,-47.11552429199219,-40.53556823730469,0
+Should Melinda ever resemble some picture?,Melinda should ever resemble some picture.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,524,-64.63080596923828,-59.12747573852539,0
+Would a cup ever tip over?,A cup would ever tip over.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,525,-52.534828186035156,-47.18867874145508,0
+Have some legislatures ever conferred?,Some legislatures have ever conferred.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,526,-47.85455322265625,-42.3530158996582,0
+Does Carla ever bother Michelle?,Carla does ever bother Michelle.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,527,-61.67875671386719,-58.523963928222656,0
+Should this teacher ever dare Jason to yell?,This teacher should ever dare Jason to yell.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,528,-75.87410736083984,-68.25942993164062,0
+Might Gregory ever hate Victoria?,Gregory might ever hate Victoria.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,529,-68.71631622314453,-57.04296112060547,0
+Had Beth ever tempted Carol to win?,Beth had ever tempted Carol to win.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,530,-66.93942260742188,-69.60630798339844,1
+Might the teenagers ever divorce?,The teenagers might ever divorce.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,531,-58.57756805419922,-44.35205841064453,0
+Had Raymond ever scratched?,Raymond had ever scratched.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,532,-46.46764373779297,-38.62232208251953,0
+Should Kristen ever dare this customer to smile?,Kristen should ever dare this customer to smile.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,533,-74.40457153320312,-72.07510375976562,0
+Has a man ever watched Judy?,A man has ever watched Judy.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,534,-49.71726989746094,-43.346923828125,0
+Had Susan ever yearned to litter?,Susan had ever yearned to litter.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,535,-74.09317016601562,-64.9661865234375,0
+Had Gerald ever protested?,Gerald had ever protested.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,536,-51.58112335205078,-42.44394302368164,0
+Might all carts ever accelerate?,All carts might ever accelerate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,537,-64.4706802368164,-46.8472785949707,0
+Has Clyde ever changed?,Clyde has ever changed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,538,-40.60950469970703,-42.71214294433594,1
+Has Alice ever murmured?,Alice has ever murmured.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,539,-51.532344818115234,-39.51190948486328,0
+Had some lakes ever vaporized?,Some lakes had ever vaporized.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,540,-55.90428924560547,-48.68064880371094,0
+Has Katherine ever discovered the men?,Katherine has ever discovered the men.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,541,-53.4007568359375,-47.89852523803711,0
+Have the Impressionists ever reacted?,The Impressionists have ever reacted.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,542,-51.683311462402344,-41.742469787597656,0
+Might a man ever spin around?,A man might ever spin around.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,543,-60.33253860473633,-42.7236328125,0
+Has Beth ever spun around?,Beth has ever spun around.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,544,-49.30353927612305,-44.575557708740234,0
+Had Becca ever gone to a lot of banks?,Becca had ever gone to a lot of banks.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,545,-64.7298583984375,-58.78801345825195,0
+Had Rachelle ever proven to play?,Rachelle had ever proven to play.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,546,-55.594825744628906,-48.353302001953125,0
+Had that chair ever shattered?,That chair had ever shattered.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,547,-47.81212615966797,-40.856998443603516,0
+Should all skirts ever stretch?,All skirts should ever stretch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,548,-50.30725860595703,-44.391883850097656,0
+Could this icicle ever evaporate?,This icicle could ever evaporate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,549,-61.658077239990234,-58.25299835205078,0
+Had Martin ever escaped?,Martin had ever escaped.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,550,-42.28883361816406,-35.76951217651367,0
+Can the woman ever cook?,The woman can ever cook.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,551,-45.592742919921875,-37.30628967285156,0
+Has Diana ever ascended most stairs?,Diana has ever ascended most stairs.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,552,-68.32288360595703,-59.11676025390625,0
+Would a scarf ever stretch?,A scarf would ever stretch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,553,-47.05287170410156,-43.7354850769043,0
+Had Danielle ever remembered who shrugs?,Danielle had ever remembered who shrugs.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,554,-64.76161193847656,-63.71710205078125,0
+Have these coats ever shrunk?,These coats have ever shrunk.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,555,-42.83746337890625,-37.72581481933594,0
+Could this student ever shout?,This student could ever shout.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,556,-51.795902252197266,-42.615169525146484,0
+Had all icicles ever bothered Renee?,All icicles had ever bothered Renee.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,557,-82.21878051757812,-74.80851745605469,0
+Will Cheryl ever escape from Laura?,Cheryl will ever escape from Laura.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,558,-60.51227951049805,-69.32952880859375,1
+Had every legislature ever yearned to embarrass a university?,Every legislature had ever yearned to embarrass a university.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,559,-89.29122924804688,-81.0338134765625,0
+Has some unicycle ever stopped?,Some unicycle has ever stopped.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,560,-54.812740325927734,-51.285057067871094,0
+Had the cashiers ever appeared to buy those newspaper articles?,The cashiers had ever appeared to buy those newspaper articles.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,561,-80.69770812988281,-75.23052978515625,0
+Will Helen ever move?,Helen will ever move.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,562,-48.438446044921875,-37.34065246582031,0
+Had a girl ever telephoned?,A girl had ever telephoned.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,563,-53.382225036621094,-49.19242858886719,0
+Did Judy ever wear most scarves?,Judy did ever wear most scarves.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,564,-62.96407699584961,-57.56951141357422,0
+Could Wendy ever learn who is going fishing?,Wendy could ever learn who is going fishing.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,565,-74.56526184082031,-67.19905090332031,0
+Did Steven ever stun Brad?,Steven did ever stun Brad.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,566,-61.18260955810547,-54.91224670410156,0
+Would Patrick ever see?,Patrick would ever see.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,567,-38.56755065917969,-34.907676696777344,0
+Did Jacqueline ever fall asleep?,Jacqueline did ever fall asleep.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,568,-49.399932861328125,-52.97949981689453,1
+Has that patient ever departed?,That patient has ever departed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,569,-51.132652282714844,-42.08746337890625,0
+Have these associations ever forgotten about who isn't finding Angela?,These associations have ever forgotten about who isn't finding Angela.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,570,-81.14677429199219,-73.7371826171875,0
+Might James ever forget who confer?,James might ever forget who confer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,571,-73.07206726074219,-56.27919006347656,0
+Has Victoria ever lied?,Victoria has ever lied.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,572,-44.064361572265625,-36.70684051513672,0
+Will Natalie ever escape?,Natalie will ever escape.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,573,-45.12848663330078,-40.442222595214844,0
+Had Becky ever preferred those cashiers to confuse a lot of senators?,Becky had ever preferred those cashiers to confuse a lot of senators.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,574,-111.74459838867188,-99.11129760742188,0
+Might a committee ever conspire?,A committee might ever conspire.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,575,-69.74482727050781,-55.87422561645508,0
+Had Rhonda ever scanned the commentaries?,Rhonda had ever scanned the commentaries.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,576,-68.85818481445312,-62.31513214111328,0
+Has Paul ever described Bradley?,Paul has ever described Bradley.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,577,-54.53896713256836,-42.20499801635742,0
+Might pedestrians ever embrace?,Pedestrians might ever embrace.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,578,-54.72969436645508,-59.96762466430664,1
+Would most libraries ever manage to protest?,Most libraries would ever manage to protest.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,579,-58.43504333496094,-57.854164123535156,0
+Has Kristen ever argued?,Kristen has ever argued.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,580,-45.7048225402832,-38.17620086669922,0
+Would the Borgias ever swallow?,The Borgias would ever swallow.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,581,-64.53778076171875,-54.51035690307617,0
+Can Curtis ever predict many hills to aggravate Richard?,Curtis can ever predict many hills to aggravate Richard.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,582,-96.02796936035156,-94.03983306884766,0
+Have most boys ever regretted David intends to dislike documentaries?,Most boys have ever regretted David intends to dislike documentaries.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,583,-86.5433349609375,-81.73710632324219,0
+Had all girls ever commissioned Carl to come here?,All girls had ever commissioned Carl to come here.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,584,-75.42495727539062,-65.76762390136719,0
+Did that doctor ever notice Amy?,That doctor did ever notice Amy.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,585,-57.358062744140625,-53.8621826171875,0
+Would William ever mutter?,William would ever mutter.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,586,-52.948333740234375,-46.03997802734375,0
+Has the river ever frozen?,The river has ever frozen.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,587,-46.381591796875,-38.84675598144531,0
+Can many schools ever clash?,Many schools can ever clash.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,588,-46.61773681640625,-39.859710693359375,0
+Has Jill ever looked to dry?,Jill has ever looked to dry.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,589,-53.54606628417969,-47.33845520019531,0
+Should Vincent ever hire Brett?,Vincent should ever hire Brett.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,590,-60.232425689697266,-63.50664520263672,1
+Would Kimberley ever hide?,Kimberley would ever hide.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,591,-46.85263442993164,-44.16835021972656,0
+Can Anna ever like Stacy?,Anna can ever like Stacy.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,592,-50.68263626098633,-45.91472625732422,0
+Would Sharon ever long to tour this glacier?,Sharon would ever long to tour this glacier.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,593,-71.83924102783203,-71.52322387695312,0
+Has Tammy ever escaped?,Tammy has ever escaped.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,594,-46.58851623535156,-42.68584442138672,0
+Had Danielle ever admired the computers?,Danielle had ever admired the computers.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,595,-56.88184356689453,-55.729305267333984,0
+Could those organizations ever succeed?,Those organizations could ever succeed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,596,-44.86608123779297,-37.88523864746094,0
+Has Holly ever continued to break that computer?,Holly has ever continued to break that computer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,597,-67.3513412475586,-59.17578887939453,0
+Will the Lutherans ever laugh?,The Lutherans will ever laugh.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,598,-49.9382209777832,-41.31536102294922,0
+Has every waiter ever said some guys stretch?,Every waiter has ever said some guys stretch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,599,-71.27659606933594,-65.7411117553711,0
+Had Rodney ever investigated who have disappeared?,Rodney had ever investigated who have disappeared.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,600,-65.35089111328125,-58.768218994140625,0
+Had most teachers ever flirted?,Most teachers had ever flirted.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,601,-56.86320495605469,-50.510765075683594,0
+Should those doctors ever approve?,Those doctors should ever approve.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,602,-48.10752868652344,-41.375633239746094,0
+Will Joseph ever litter?,Joseph will ever litter.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,603,-49.158451080322266,-44.281742095947266,0
+Do many adults ever force Sabrina's fathers to debate?,Many adults do ever force Sabrina's fathers to debate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,604,-90.748046875,-82.36279296875,0
+Did a doctor ever ascend that mountain?,A doctor did ever ascend that mountain.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,605,-60.9564094543457,-61.05647659301758,1
+Will boys ever collaborate?,Boys will ever collaborate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,606,-41.809852600097656,-41.80677032470703,0
+Has Rodney ever distracted Katherine?,Rodney has ever distracted Katherine.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,607,-58.57392883300781,-55.88825225830078,0
+Had Dana ever boycotted that legislature?,Dana had ever boycotted that legislature.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,608,-82.70912170410156,-82.26329040527344,0
+Had Michael ever hidden that gate?,Michael had ever hidden that gate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,609,-63.89853286743164,-54.74081039428711,0
+Did every cup ever chip?,Every cup did ever chip.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,610,-42.1072883605957,-43.24658966064453,1
+Would Bill ever forget Tonya?,Bill would ever forget Tonya.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,611,-58.36334991455078,-48.597007751464844,0
+Had this woman ever explored a college campus?,This woman had ever explored a college campus.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,612,-63.869476318359375,-54.2133903503418,0
+Had Randolf ever climbed up the mountain?,Randolf had ever climbed up the mountain.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,613,-67.28956604003906,-55.03966522216797,0
+Has Susan ever protested?,Susan has ever protested.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,614,-47.34816360473633,-39.500404357910156,0
+Does Tina ever leave?,Tina does ever leave.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,615,-41.28169250488281,-42.322017669677734,1
+Did those waiters ever get a job?,Those waiters did ever get a job.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,616,-53.40766906738281,-52.93880081176758,0
+Does Amelia ever exercise?,Amelia does ever exercise.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,617,-43.764312744140625,-48.44480895996094,1
+Might a pedestrian ever talk about Becca?,A pedestrian might ever talk about Becca.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,618,-74.83966064453125,-59.147979736328125,0
+Have many students ever shrugged?,Many students have ever shrugged.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,619,-43.36018371582031,-38.85728454589844,0
+Had William ever imagined Colleen hadn't bothered Marcus?,William had ever imagined Colleen hadn't bothered Marcus.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,620,-87.38081359863281,-79.59211730957031,0
+Has Amanda ever proven to turn?,Amanda has ever proven to turn.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,621,-49.319114685058594,-41.967376708984375,0
+Had Carlos ever obligated Rodney to wash?,Carlos had ever obligated Rodney to wash.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,622,-79.58003234863281,-71.7962417602539,0
+Did coats ever flatten?,Coats did ever flatten.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,623,-49.619041442871094,-49.21615982055664,0
+Can Candice ever describe Robert?,Candice can ever describe Robert.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,624,-61.73735809326172,-55.774925231933594,0
+Had Rachelle ever watched a lot of pedestrians?,Rachelle had ever watched a lot of pedestrians.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,625,-63.45585632324219,-55.72962951660156,0
+Should the broccoli ever blacken?,The broccoli should ever blacken.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,626,-54.67796325683594,-53.3153190612793,0
+Has Carrie ever commissioned the niece of Frank to climb up many mountains?,Carrie has ever commissioned the niece of Frank to climb up many mountains.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,627,-111.60881805419922,-98.17819213867188,0
+Had Tiffany ever shouted?,Tiffany had ever shouted.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,628,-46.858734130859375,-49.161293029785156,1
+Has Nicole ever seemed to profit?,Nicole has ever seemed to profit.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,629,-51.45393753051758,-46.5313720703125,0
+Had Marla ever embarrassed all men?,Marla had ever embarrassed all men.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,630,-66.67961120605469,-53.96000289916992,0
+Will many jackets ever vanish?,Many jackets will ever vanish.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,631,-49.46820831298828,-39.47401428222656,0
+Had many drivers ever obligated the girl to confuse Steve?,Many drivers had ever obligated the girl to confuse Steve.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,632,-89.72434997558594,-82.89324951171875,0
+Would Rachel ever remember what can close?,Rachel would ever remember what can close.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,633,-60.931884765625,-54.83025360107422,0
+Can Beverly ever argue?,Beverly can ever argue.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,634,-45.04521179199219,-47.01873779296875,1
+Does Dan ever try to scare Derek?,Dan does ever try to scare Derek.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,635,-62.21095275878906,-61.72596740722656,0
+Do those forks ever crack?,Those forks do ever crack.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,636,-48.68659210205078,-49.61737060546875,1
+Did Edward ever shock a lot of universities?,Edward did ever shock a lot of universities.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,637,-68.86053466796875,-64.21815490722656,0
+Had Jason ever complained?,Jason had ever complained.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,638,-43.72331237792969,-32.34543991088867,0
+Could Monica ever laugh?,Monica could ever laugh.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,639,-47.96141815185547,-42.80401611328125,0
+Can every woman ever vanish?,Every woman can ever vanish.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,640,-45.514671325683594,-38.58549499511719,0
+Had Margaret ever seemed to scare Spain?,Margaret had ever seemed to scare Spain.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,641,-63.555992126464844,-61.334957122802734,0
+Has Galileo ever spurred Vincent to walk through a lot of public parks?,Galileo has ever spurred Vincent to walk through a lot of public parks.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,642,-93.91122436523438,-100.33415222167969,1
+Has Diana ever remembered the lady?,Diana has ever remembered the lady.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,643,-57.89751434326172,-50.001556396484375,0
+Has this legislature ever cooperated?,This legislature has ever cooperated.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,644,-50.929134368896484,-40.614654541015625,0
+Had the Borgias ever bored the Lutherans?,The Borgias had ever bored the Lutherans.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,645,-80.03846740722656,-71.54351806640625,0
+Did Barbara ever appear to vaporize?,Barbara did ever appear to vaporize.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,646,-62.56251525878906,-60.75960922241211,0
+Has Kenneth ever complained?,Kenneth has ever complained.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,647,-43.893062591552734,-39.56892776489258,0
+Could most waitresses ever talk to a patient?,Most waitresses could ever talk to a patient.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,648,-73.90225219726562,-67.7353515625,0
+Had these teenagers ever responded?,These teenagers had ever responded.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,649,-48.12175750732422,-37.69247055053711,0
+Will those candles ever fall?,Those candles will ever fall.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,650,-43.84185791015625,-40.58293151855469,0
+Did these actors ever compete?,These actors did ever compete.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,651,-44.480995178222656,-42.184471130371094,0
+Has the glacier ever melted?,The glacier has ever melted.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,652,-46.059539794921875,-38.124908447265625,0
+Can Deborah ever joke around?,Deborah can ever joke around.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,653,-55.99079895019531,-51.43854904174805,0
+Did a lot of waiters ever confer?,A lot of waiters did ever confer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,654,-57.767520904541016,-54.62753677368164,0
+Did some river ever freeze?,Some river did ever freeze.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,655,-46.880409240722656,-43.885581970214844,0
+Did Jeffrey ever bother to question Cynthia?,Jeffrey did ever bother to question Cynthia.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,656,-69.12049102783203,-60.16967010498047,0
+Did many waitresses ever embrace?,Many waitresses did ever embrace.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,657,-61.241905212402344,-60.24461364746094,0
+Have some pictures ever disappeared?,Some pictures have ever disappeared.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,658,-34.50184631347656,-32.55032730102539,0
+Had Florence ever remembered some adults?,Florence had ever remembered some adults.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,659,-59.486209869384766,-66.07682800292969,1
+Could all shirts ever tighten?,All shirts could ever tighten.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,660,-53.166568756103516,-45.468021392822266,0
+Had a lot of boys ever argued?,A lot of boys had ever argued.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,661,-45.181114196777344,-41.02068328857422,0
+Could Kimberley ever hug every waiter?,Kimberley could ever hug every waiter.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,662,-64.29236602783203,-62.38539123535156,0
+Should Patricia ever boycott most companies?,Patricia should ever boycott most companies.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,663,-66.71356964111328,-65.13702392578125,0
+Has Sabrina ever praised the newspaper articles?,Sabrina has ever praised the newspaper articles.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,664,-69.6656723022461,-65.98175811767578,0
+Had some vase ever chipped?,Some vase had ever chipped.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,665,-53.884971618652344,-50.31778335571289,0
+Had a lot of vases ever annoyed Paul?,A lot of vases had ever annoyed Paul.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,666,-70.04647827148438,-67.20809936523438,0
+Does Rose ever compromise?,Rose does ever compromise.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,667,-42.01820373535156,-36.0275993347168,0
+Could that driver ever ask Andrea's handymen to escape from Donald?,That driver could ever ask Andrea's handymen to escape from Donald.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,668,-108.18905639648438,-101.0550308227539,0
+Had every couch ever cracked?,Every couch had ever cracked.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,669,-47.202117919921875,-40.60262680053711,0
+Will Grace ever criticize Susan?,Grace will ever criticize Susan.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,670,-50.032135009765625,-43.70109176635742,0
+Has Emily ever neglected to sneeze?,Emily has ever neglected to sneeze.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,671,-67.25331115722656,-58.096458435058594,0
+Might Janice ever push Jessica to kiss Diane?,Janice might ever push Jessica to kiss Diane.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,672,-94.44349670410156,-83.09252166748047,0
+Had Suzanne ever laughed?,Suzanne had ever laughed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,673,-43.48512268066406,-38.38509750366211,0
+Had Rhonda ever left Kimberley?,Rhonda had ever left Kimberley.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,674,-62.33615493774414,-56.06597137451172,0
+Will Pamela ever reveal Jodi?,Pamela will ever reveal Jodi.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,675,-61.8715705871582,-61.181610107421875,0
+Should Bruce ever compromise?,Bruce should ever compromise.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,676,-43.434730529785156,-36.59795379638672,0
+Had some bananas ever annoyed Melinda?,Some bananas had ever annoyed Melinda.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,677,-70.24368286132812,-63.15838623046875,0
+Do these organizations ever appreciate Becca?,These organizations do ever appreciate Becca.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,678,-60.58018493652344,-54.085426330566406,0
+Did this cucumber ever ripen?,This cucumber did ever ripen.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,679,-56.19807052612305,-54.46133041381836,0
+Did the jackets ever loosen?,The jackets did ever loosen.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,680,-48.64495849609375,-48.78364181518555,1
+Will Tracy ever explain Stacey changes?,Tracy will ever explain Stacey changes.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,681,-70.93087768554688,-69.21018981933594,0
+Will those waitresses ever go to some hills?,Those waitresses will ever go to some hills.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,682,-73.4921875,-66.17671203613281,0
+Might every dress ever shrink?,Every dress might ever shrink.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,683,-61.482242584228516,-42.94740676879883,0
+Would Gina ever disappear?,Gina would ever disappear.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,684,-43.57010269165039,-41.69002914428711,0
+Had Jill ever hired Gina?,Jill had ever hired Gina.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,685,-54.02740478515625,-47.511627197265625,0
+Has Tammy ever discovered girls to chat?,Tammy has ever discovered girls to chat.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,686,-62.26318359375,-60.81290054321289,0
+Had women ever fought?,Women had ever fought.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,687,-40.31970977783203,-33.5322265625,0
+Should the school ever collaborate?,The school should ever collaborate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,688,-43.171817779541016,-40.53404235839844,0
+Had a lot of women ever walked through some public park?,A lot of women had ever walked through some public park.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,689,-66.18333435058594,-61.59691619873047,0
+Will Dawn ever scan some newspaper article?,Dawn will ever scan some newspaper article.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,690,-65.93699645996094,-66.6707992553711,1
+Have the plates ever slipped?,The plates have ever slipped.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,691,-45.196632385253906,-36.92230224609375,0
+Had Eva ever sung?,Eva had ever sung.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,692,-47.52056121826172,-38.87995910644531,0
+Did Margaret ever imagine Catherine has visited Winston Churchill?,Margaret did ever imagine Catherine has visited Winston Churchill.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,693,-82.61766052246094,-82.18547821044922,0
+Had those girls ever drunk?,Those girls had ever drunk.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,694,-48.01380157470703,-40.44091033935547,0
+Should Scott ever escape from Maria?,Scott should ever escape from Maria.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,695,-57.294883728027344,-51.203575134277344,0
+Will Daniel ever compromise?,Daniel will ever compromise.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,696,-43.920509338378906,-33.736183166503906,0
+Should many actors ever exercise?,Many actors should ever exercise.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,697,-48.321632385253906,-41.2475700378418,0
+Had Nancy ever chuckled?,Nancy had ever chuckled.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,698,-48.89361572265625,-48.344539642333984,0
+Will museums ever communicate?,Museums will ever communicate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,699,-43.846927642822266,-50.8701057434082,1
+Can Carlos ever climb down a hill?,Carlos can ever climb down a hill.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,700,-62.43550109863281,-57.82491683959961,0
+Has a casserole ever charred?,A casserole has ever charred.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,701,-49.989097595214844,-49.618553161621094,0
+Will Linda ever talk about a hill?,Linda will ever talk about a hill.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,702,-59.815948486328125,-55.351688385009766,0
+Had Stacey ever thought some universities have conspired?,Stacey had ever thought some universities have conspired.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,703,-89.4739990234375,-77.8625717163086,0
+Had Laurie ever studied?,Laurie had ever studied.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,704,-43.571754455566406,-41.42288589477539,0
+Have all bikes ever slipped?,All bikes have ever slipped.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,705,-44.761199951171875,-38.59560775756836,0
+Did Helen ever dislike those dancers?,Helen did ever dislike those dancers.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,706,-59.86827087402344,-59.798789978027344,0
+Did a lot of boys ever testify?,A lot of boys did ever testify.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,707,-44.880706787109375,-45.74972915649414,1
+Have some teenagers ever interacted?,Some teenagers have ever interacted.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,708,-37.773651123046875,-32.60871505737305,0
+Will Becca ever yearn to come here?,Becca will ever yearn to come here.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,709,-67.33938598632812,-66.46470642089844,0
+Have a lot of pedestrians ever bothered to drink?,A lot of pedestrians have ever bothered to drink.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,710,-51.461875915527344,-50.200347900390625,0
+Did these guests ever divorce?,These guests did ever divorce.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,711,-46.266868591308594,-44.59611892700195,0
+Would Lawrence ever work with Kathleen?,Lawrence would ever work with Kathleen.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,712,-60.03601837158203,-53.90430450439453,0
+Can an actress ever expect Bradley to fall?,An actress can ever expect Bradley to fall.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,713,-70.18411254882812,-60.56190490722656,0
+Has the icicle ever evaporated?,The icicle has ever evaporated.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,714,-60.71369171142578,-49.780799865722656,0
+Does Tanya ever get fired?,Tanya does ever get fired.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,715,-53.24378204345703,-47.43949890136719,0
+Should the associations ever succeed?,The associations should ever succeed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,716,-42.24702453613281,-39.78468704223633,0
+Will Kevin ever think all waiters shouldn't hide away?,Kevin will ever think all waiters shouldn't hide away.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,717,-83.84062194824219,-79.4396743774414,0
+Will the skateboards ever steer?,The skateboards will ever steer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,718,-53.33516311645508,-45.196990966796875,0
+Will Wayne ever manage to laugh?,Wayne will ever manage to laugh.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,719,-58.360721588134766,-55.353309631347656,0
+Does the waitress ever reveal what talked about most banks?,The waitress does ever reveal what talked about most banks.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,720,-79.16210174560547,-80.32552337646484,1
+Had Jerry ever considered Christina to salute?,Jerry had ever considered Christina to salute.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,721,-72.17362976074219,-62.03129577636719,0
+Does Martha ever arrive at Spain?,Martha does ever arrive at Spain.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,722,-54.25480651855469,-59.63348388671875,1
+Does Angela ever discover who has fired Dana?,Angela does ever discover who has fired Dana.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,723,-76.18412780761719,-75.86183166503906,0
+Had Bethany ever slumped over?,Bethany had ever slumped over.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,724,-70.18647766113281,-63.11456298828125,0
+Had Ronald ever escaped from every grocery store?,Ronald had ever escaped from every grocery store.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,725,-66.80463409423828,-59.3908805847168,0
+Had Susan ever imagined these customers discover who are realizing who can't obligate Natalie to drive to this mall?,Susan had ever imagined these customers discover who are realizing who can't obligate Natalie to drive to this mall.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,726,-155.95681762695312,-150.03125,0
+Had Margaret ever longed to wear some dresses?,Margaret had ever longed to wear some dresses.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,727,-75.35098266601562,-72.02507019042969,0
+Do these cashiers ever communicate?,These cashiers do ever communicate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,728,-52.983734130859375,-53.69353485107422,1
+Have the girls ever distracted Cindy?,The girls have ever distracted Cindy.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,729,-56.17324447631836,-47.01105499267578,0
+Had some river ever condensed?,Some river had ever condensed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,730,-53.20179748535156,-44.419925689697266,0
+Had the Clintons ever worked hard?,The Clintons had ever worked hard.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,731,-55.504730224609375,-47.60994338989258,0
+Did Sonia ever walk through a college campus?,Sonia did ever walk through a college campus.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,732,-71.19161987304688,-67.58821105957031,0
+Can Stacey ever concur?,Stacey can ever concur.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,733,-60.35889434814453,-52.221160888671875,0
+Had Tara ever saluted?,Tara had ever saluted.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,734,-51.9982795715332,-49.35907745361328,0
+Did that shirt ever exist?,That shirt did ever exist.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,735,-41.484886169433594,-39.75180435180664,0
+Had Alexander ever hugged Stacey?,Alexander had ever hugged Stacey.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,736,-65.38359069824219,-53.94470977783203,0
+Did Beth ever hide?,Beth did ever hide.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,737,-43.532005310058594,-43.82334899902344,1
+Had the driver ever fallen asleep?,The driver had ever fallen asleep.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,738,-47.43306350708008,-34.99801254272461,0
+Did some river ever melt?,Some river did ever melt.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,739,-47.75957489013672,-46.14179229736328,0
+Had teachers ever descended all steps?,Teachers had ever descended all steps.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,740,-55.59883499145508,-53.14414978027344,0
+Had those cups ever cracked?,Those cups had ever cracked.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,741,-52.474647521972656,-44.41549301147461,0
+Will the hats ever soak?,The hats will ever soak.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,742,-46.0422477722168,-39.10915756225586,0
+Will Mary ever upset Margaret?,Mary will ever upset Margaret.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,743,-53.728702545166016,-47.24860382080078,0
+Had Andrew ever donated?,Andrew had ever donated.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,744,-42.05841827392578,-33.45642852783203,0
+Will Brenda ever hate Christopher?,Brenda will ever hate Christopher.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,745,-59.40360641479492,-52.18505859375,0
+Can these people ever concur?,These people can ever concur.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,746,-52.39411163330078,-41.57669448852539,0
+Has Sonia ever hidden away?,Sonia has ever hidden away.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,747,-57.37047576904297,-46.4742431640625,0
+Has Gina ever played?,Gina has ever played.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,748,-43.48770523071289,-33.15933609008789,0
+Has that person ever listened to Anna?,That person has ever listened to Anna.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,749,-57.29906463623047,-45.18035125732422,0
+Should Dawn ever exit hills?,Dawn should ever exit hills.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,750,-54.98611831665039,-60.67034149169922,1
+Do the legislatures ever reveal who force Daniel to study?,The legislatures do ever reveal who force Daniel to study.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,751,-88.45930480957031,-83.86136627197266,0
+Has Keith ever explained every plane was accelerating?,Keith has ever explained every plane was accelerating.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,752,-79.93388366699219,-65.37904357910156,0
+Might Alan ever litter?,Alan might ever litter.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,753,-61.054115295410156,-46.52207946777344,0
+Can unicycles ever chip?,Unicycles can ever chip.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,754,-56.542625427246094,-48.88750457763672,0
+Could Gregory ever wish to confuse that boy?,Gregory could ever wish to confuse that boy.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,755,-70.44439697265625,-68.54826354980469,0
+Had Heidi ever known an actor?,Heidi had ever known an actor.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,756,-53.2030143737793,-45.92992401123047,0
+Should these men ever reveal this child?,These men should ever reveal this child.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,757,-59.318946838378906,-49.544315338134766,0
+Will this legislature ever boast?,This legislature will ever boast.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,758,-51.39905548095703,-43.575721740722656,0
+Could Tamara ever entice Debra to go fishing?,Tamara could ever entice Debra to go fishing.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,759,-86.64920806884766,-82.89291381835938,0
+Had Becky ever ascertained Helen to drop by Harvard University?,Becky had ever ascertained Helen to drop by Harvard University.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,760,-95.47100830078125,-84.67422485351562,0
+Had Lucille ever looked to hunt?,Lucille had ever looked to hunt.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,761,-60.732505798339844,-50.348960876464844,0
+Had the ladies ever revealed that plate?,The ladies had ever revealed that plate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,762,-54.98576736450195,-47.989017486572266,0
+Might Jill ever imagine Tamara won't encourage Alan's father to get fired?,Jill might ever imagine Tamara won't encourage Alan's father to get fired.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,763,-125.3725814819336,-113.2627944946289,0
+Could Paula ever escape?,Paula could ever escape.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,764,-48.73009490966797,-42.983314514160156,0
+Had those windows ever tipped over?,Those windows had ever tipped over.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,765,-54.31997299194336,-48.01393508911133,0
+Has this rice ever upset Nicole?,This rice has ever upset Nicole.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,766,-65.90530395507812,-58.2936897277832,0
+Did this documentary ever worry Travis?,This documentary did ever worry Travis.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,767,-63.50993347167969,-55.8374137878418,0
+Can Julia ever smile?,Julia can ever smile.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,768,-45.03125,-42.25224304199219,0
+Could Sally ever disturb that lady?,Sally could ever disturb that lady.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,769,-62.97713851928711,-54.95580291748047,0
+Had Lucille ever wept?,Lucille had ever wept.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,770,-59.635250091552734,-52.33147048950195,0
+Has Elaine ever blinked?,Elaine has ever blinked.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,771,-50.1038932800293,-48.862945556640625,0
+Had Lissa ever broken some skateboards?,Lissa had ever broken some skateboards.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,772,-70.60160827636719,-57.22975158691406,0
+Had these skirts ever frayed?,These skirts had ever frayed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,773,-56.369361877441406,-47.71470260620117,0
+Should Wayne ever bother to sneeze?,Wayne should ever bother to sneeze.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,774,-69.8580322265625,-69.21115112304688,0
+Has this man ever respected a lot of rivers?,This man has ever respected a lot of rivers.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,775,-60.900390625,-49.62370681762695,0
+Has every man ever bothered to listen to Lisa?,Every man has ever bothered to listen to Lisa.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,776,-59.848018646240234,-51.65906524658203,0
+Had Robert ever ascended every slope?,Robert had ever ascended every slope.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,777,-66.39928436279297,-55.115970611572266,0
+Can Tiffany ever scream?,Tiffany can ever scream.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,778,-47.98027038574219,-47.94024658203125,0
+Has Beth ever persuaded Judy to learn?,Beth has ever persuaded Judy to learn.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,779,-65.52310180664062,-63.224090576171875,0
+Have these bikes ever cracked?,These bikes have ever cracked.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,780,-43.944786071777344,-39.49809265136719,0
+Has Beverly ever healed Eric?,Beverly has ever healed Eric.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,781,-54.05366134643555,-53.90629959106445,0
+Could Stacy ever disappear?,Stacy could ever disappear.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,782,-44.083431243896484,-41.1119270324707,0
+Should Travis ever dare some teacher to arrive at every cafe?,Travis should ever dare some teacher to arrive at every cafe.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,783,-88.243896484375,-88.9974365234375,1
+Should Jodi ever talk?,Jodi should ever talk.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,784,-50.508758544921875,-40.36716079711914,0
+Had Martha ever joked around?,Martha had ever joked around.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,785,-51.934715270996094,-50.681236267089844,0
+Can Randolf ever flee from Anna?,Randolf can ever flee from Anna.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,786,-74.12294006347656,-64.70115661621094,0
+Can Veronica ever heal Melissa?,Veronica can ever heal Melissa.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,787,-61.755069732666016,-54.74150848388672,0
+Could these drivers ever retaliate?,These drivers could ever retaliate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,788,-46.712791442871094,-43.2397346496582,0
+Might Andrea ever discover Margaret to forget Patricia?,Andrea might ever discover Margaret to forget Patricia.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,789,-92.38623046875,-76.01850891113281,0
+Will a sweater ever fray?,A sweater will ever fray.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,790,-49.69676208496094,-45.577598571777344,0
+Has Melissa ever implored these offspring to distract Donald?,Melissa has ever implored these offspring to distract Donald.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,791,-96.4000244140625,-92.42464447021484,0
+Had Sherry ever dropped by all public parks?,Sherry had ever dropped by all public parks.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,792,-73.13452911376953,-61.77653503417969,0
+Have a lot of hats ever looked like every photograph?,A lot of hats have ever looked like every photograph.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,793,-57.54302215576172,-57.15296936035156,0
+Could Walter ever press Katherine to depart?,Walter could ever press Katherine to depart.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,794,-77.94462585449219,-71.03689575195312,0
+Could Gregory ever prevent the boy from speaking up?,Gregory could ever prevent the boy from speaking up.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,795,-81.66999816894531,-76.17625427246094,0
+Can this icicle ever freeze?,This icicle can ever freeze.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,796,-56.919559478759766,-51.242095947265625,0
+Can Adam ever compel this child to break the mirror?,Adam can ever compel this child to break the mirror.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,797,-78.46378326416016,-71.83695983886719,0
+Did Theodore ever observe Jacqueline?,Theodore did ever observe Jacqueline.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,798,-67.94279479980469,-61.704124450683594,0
+Do these bicycles ever stop?,These bicycles do ever stop.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,799,-44.53881072998047,-40.34002685546875,0
+Had Stacy ever confused Kristin?,Stacy had ever confused Kristin.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,800,-60.98079299926758,-58.08909606933594,0
+Did Caroline ever think Douglas hadn't shrugged?,Caroline did ever think Douglas hadn't shrugged.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,801,-76.02558898925781,-73.30651092529297,0
+Has Edward ever hidden?,Edward has ever hidden.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,802,-45.742637634277344,-35.91191101074219,0
+Will Christina ever come here?,Christina will ever come here.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,803,-44.157928466796875,-38.25992965698242,0
+Had some spotlight ever dimmed?,Some spotlight had ever dimmed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,804,-57.05964660644531,-50.042545318603516,0
+Did Amanda ever dislike that documentary?,Amanda did ever dislike that documentary.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,805,-58.45877456665039,-56.47524642944336,0
+Had the guest ever tried to astound Deborah?,The guest had ever tried to astound Deborah.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,806,-72.86390686035156,-65.02484893798828,0
+Would dancers ever heal Kayla?,Dancers would ever heal Kayla.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,807,-62.00263977050781,-60.828514099121094,0
+Might Kenneth ever mess up the hospital?,Kenneth might ever mess up the hospital.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,808,-71.21311950683594,-60.55836486816406,0
+Would most sketches ever bother Heather?,Most sketches would ever bother Heather.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,809,-62.48775863647461,-59.09274673461914,0
+Can Tonya ever sneeze?,Tonya can ever sneeze.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,810,-60.68503189086914,-54.16029357910156,0
+Has Sarah ever gone fishing?,Sarah has ever gone fishing.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,811,-51.4456787109375,-38.98703384399414,0
+Might April ever find Sandra?,April might ever find Sandra.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,812,-63.993289947509766,-47.923255920410156,0
+Had some icicles ever evaporated?,Some icicles had ever evaporated.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,813,-62.819000244140625,-55.164703369140625,0
+Has an actress ever talked?,An actress has ever talked.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,814,-41.81186294555664,-36.33522033691406,0
+Might Linda ever waste away?,Linda might ever waste away.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,815,-62.527374267578125,-50.510948181152344,0
+Has Barbara ever brought the shoe?,Barbara has ever brought the shoe.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,816,-51.169090270996094,-46.49757385253906,0
+Does Christina ever figure out who has messed up some glasses?,Christina does ever figure out who has messed up some glasses.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,817,-82.61571502685547,-84.53721618652344,1
+Had the Clintons ever competed?,The Clintons had ever competed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,818,-53.513893127441406,-48.91938400268555,0
+Has this photograph ever worried Regina?,This photograph has ever worried Regina.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,819,-67.58607482910156,-56.14739990234375,0
+Would Rebecca ever want to wash?,Rebecca would ever want to wash.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,820,-53.341590881347656,-47.58130645751953,0
+Did Beth ever die?,Beth did ever die.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,821,-40.02661895751953,-43.095787048339844,1
+Has Elizabeth ever motivated Julie to impress Timothy?,Elizabeth has ever motivated Julie to impress Timothy.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,822,-83.39834594726562,-70.46258544921875,0
+Had Stephen ever smiled?,Stephen had ever smiled.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,823,-45.85763931274414,-38.08055114746094,0
+Has Keith ever boasted about Nina?,Keith has ever boasted about Nina.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,824,-77.29571533203125,-61.43704605102539,0
+Would doctors ever cook?,Doctors would ever cook.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,825,-41.947452545166016,-36.736083984375,0
+Should all women ever insult Russell?,All women should ever insult Russell.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,826,-61.95683670043945,-53.26152038574219,0
+Have most dresses ever crumpled?,Most dresses have ever crumpled.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,827,-55.73894119262695,-53.40943145751953,0
+Has Karla ever continued to argue?,Karla has ever continued to argue.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,828,-61.67155456542969,-48.32645034790039,0
+Should Mitchell ever write?,Mitchell should ever write.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,829,-44.07284164428711,-46.966365814208984,1
+Do a lot of children ever date?,A lot of children do ever date.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,830,-46.87213134765625,-45.04556655883789,0
+Has Jerry ever loved Carla?,Jerry has ever loved Carla.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,831,-56.234893798828125,-47.213340759277344,0
+Could the actress ever clean that art gallery?,The actress could ever clean that art gallery.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,832,-68.01020812988281,-59.41765213012695,0
+Had Noah ever coughed?,Noah had ever coughed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,833,-59.431182861328125,-60.48872756958008,1
+Had Mitchell ever chuckled?,Mitchell had ever chuckled.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,834,-50.27732849121094,-50.420169830322266,1
+Had this actress ever descended those stairs?,This actress had ever descended those stairs.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,835,-66.0752182006836,-57.02925109863281,0
+Has Elizabeth ever sold this public park?,Elizabeth has ever sold this public park.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,836,-63.32209014892578,-49.400299072265625,0
+Had the Lutherans ever collaborated?,The Lutherans had ever collaborated.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,837,-50.84136199951172,-42.947418212890625,0
+Do most guests ever react?,Most guests do ever react.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,838,-47.225467681884766,-43.239845275878906,0
+Had this hamster ever bothered Meredith?,This hamster had ever bothered Meredith.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,839,-60.88918685913086,-52.82200622558594,0
+Had Paula ever intended to run around the mall?,Paula had ever intended to run around the mall.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,840,-69.27584838867188,-59.60139465332031,0
+Does Patricia ever doubt the lights darken?,Patricia does ever doubt the lights darken.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,841,-69.35847473144531,-77.53985595703125,1
+Might Matt ever read?,Matt might ever read.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,842,-50.670413970947266,-36.48426818847656,0
+Has Donald ever sung?,Donald has ever sung.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,843,-45.188907623291016,-36.1445426940918,0
+Could a doctor ever know what looks like drawings?,A doctor could ever know what looks like drawings.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,844,-61.81003952026367,-58.2069091796875,0
+Had Emily ever resembled a print?,Emily had ever resembled a print.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,845,-59.360137939453125,-50.56279373168945,0
+Can Amy ever happen to lie?,Amy can ever happen to lie.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,846,-51.67491149902344,-42.29460906982422,0
+Will Tracy ever investigate some waitress?,Tracy will ever investigate some waitress.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,847,-65.57971954345703,-61.278533935546875,0
+Does Kathleen ever investigate Julie?,Kathleen does ever investigate Julie.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,848,-57.048912048339844,-63.60175323486328,1
+Had many shoes ever crumpled?,Many shoes had ever crumpled.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,849,-58.491878509521484,-53.616172790527344,0
+Has Denise ever run around some libraries?,Denise has ever run around some libraries.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,850,-69.15789794921875,-62.24074935913086,0
+Should the waiter ever have that slope?,The waiter should ever have that slope.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,851,-55.01811981201172,-58.1202392578125,1
+Has Vanessa ever prevented many customers from arguing about Thomas?,Vanessa has ever prevented many customers from arguing about Thomas.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,852,-90.23951721191406,-79.44830322265625,0
+Has this legislature ever argued?,This legislature has ever argued.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,853,-49.523109436035156,-37.340476989746094,0
+Should every man ever fall?,Every man should ever fall.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,854,-41.16435623168945,-38.904327392578125,0
+Would Jeffrey ever boast about John?,Jeffrey would ever boast about John.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,855,-65.99402618408203,-58.75779724121094,0
+Can the popsicle ever evaporate?,The popsicle can ever evaporate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,856,-55.49142074584961,-48.34131622314453,0
+Has Tamara ever murmured?,Tamara has ever murmured.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,857,-56.7059211730957,-51.28953552246094,0
+Might every patient ever want April to drive to this lake?,Every patient might ever want April to drive to this lake.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,858,-97.09712219238281,-82.30701446533203,0
+Had the Borgias ever bothered every dancer?,The Borgias had ever bothered every dancer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,859,-74.19735717773438,-65.12832641601562,0
+Will these eggplants ever shock Teresa?,These eggplants will ever shock Teresa.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,860,-74.6199951171875,-65.56668853759766,0
+Had a plate ever shattered?,A plate had ever shattered.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,861,-45.752132415771484,-39.64738464355469,0
+Has Dennis ever figured out what condense?,Dennis has ever figured out what condense.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,862,-68.70977783203125,-56.19089889526367,0
+Might this rabbit ever wake up?,This rabbit might ever wake up.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,863,-60.993896484375,-44.375370025634766,0
+Had Debra ever thought about who remembers a lot of lakes?,Debra had ever thought about who remembers a lot of lakes.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,864,-84.68281555175781,-76.22257995605469,0
+Has Clyde ever longed to weep?,Clyde has ever longed to weep.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,865,-69.3267593383789,-70.2525863647461,1
+Does some teacher ever scream?,Some teacher does ever scream.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,866,-49.86397171020508,-45.79066467285156,0
+Had Rachelle ever forgotten about who remembers Colleen?,Rachelle had ever forgotten about who remembers Colleen.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,867,-82.53844451904297,-75.0451431274414,0
+Has some glacier ever frozen?,Some glacier has ever frozen.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,868,-51.286338806152344,-43.42206954956055,0
+Has Sheila ever disturbed every senator?,Sheila has ever disturbed every senator.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,869,-66.68921661376953,-58.08252716064453,0
+Does Samantha ever play?,Samantha does ever play.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,870,-43.51033401489258,-49.23271179199219,1
+Did cars ever slip?,Cars did ever slip.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,871,-38.3388671875,-38.241249084472656,0
+Has Julia ever skated around a glacier?,Julia has ever skated around a glacier.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,872,-74.03345489501953,-66.05654907226562,0
+Can this lake ever freeze?,This lake can ever freeze.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,873,-45.04552459716797,-39.13274383544922,0
+Should Suzanne ever cough?,Suzanne should ever cough.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,874,-49.960208892822266,-46.39985656738281,0
+Has Andrea ever learned who hasn't hated Noah?,Andrea has ever learned who hasn't hated Noah.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,875,-80.82815551757812,-70.92756652832031,0
+Has Daniel ever needed Rachelle to chuckle?,Daniel has ever needed Rachelle to chuckle.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,876,-73.46437072753906,-65.70684814453125,0
+Had Peter ever washed?,Peter had ever washed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,877,-47.54584503173828,-35.658042907714844,0
+Would Benjamin ever prompt Carrie to upset Suzanne?,Benjamin would ever prompt Carrie to upset Suzanne.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,878,-89.31867980957031,-87.5346450805664,0
+Has every woman ever climbed up some ladders?,Every woman has ever climbed up some ladders.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,879,-64.593505859375,-56.52997970581055,0
+Can Lucille ever drop by movie theaters?,Lucille can ever drop by movie theaters.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,880,-70.3206787109375,-63.19194793701172,0
+Had some actor ever loved Monet?,Some actor had ever loved Monet.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,881,-55.258392333984375,-51.5911865234375,0
+Will those doctors ever go to every restaurant?,Those doctors will ever go to every restaurant.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,882,-59.8055534362793,-51.6292610168457,0
+Had many waiters ever worked hard?,Many waiters had ever worked hard.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,883,-54.7979736328125,-47.678802490234375,0
+Had Connie ever prevented that fish from falling?,Connie had ever prevented that fish from falling.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,884,-77.34959411621094,-70.7266845703125,0
+Can Sara ever smile?,Sara can ever smile.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,885,-45.779396057128906,-39.776817321777344,0
+Has Craig ever managed to blink?,Craig has ever managed to blink.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,886,-54.39165496826172,-46.6978759765625,0
+Has Ronald ever explored most cafes?,Ronald has ever explored most cafes.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,887,-65.40432739257812,-57.38151168823242,0
+Had this hospital ever found out who hasn't shrugged?,This hospital had ever found out who hasn't shrugged.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,888,-76.16879272460938,-64.64558410644531,0
+Had every pedestrian ever obligated most cashiers to embrace?,Every pedestrian had ever obligated most cashiers to embrace.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,889,-92.87423706054688,-86.70903015136719,0
+Do some scarves ever look like a sketch?,Some scarves do ever look like a sketch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,890,-60.03604507446289,-56.26780700683594,0
+Had Carol ever convinced Suzanne's electrician to cook?,Carol had ever convinced Suzanne's electrician to cook.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,891,-89.55748748779297,-87.13878631591797,0
+Has Monet ever found cats?,Monet has ever found cats.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,892,-53.167999267578125,-44.454437255859375,0
+Had these hills ever fallen?,These hills had ever fallen.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,893,-45.27745056152344,-36.35492706298828,0
+Would these guests ever divorce?,These guests would ever divorce.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,894,-48.818180084228516,-43.803497314453125,0
+Can those waitresses ever correspond?,Those waitresses can ever correspond.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,895,-62.37303924560547,-59.511932373046875,0
+Did Raymond ever discover Heidi?,Raymond did ever discover Heidi.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,896,-57.48826599121094,-57.580177307128906,1
+Does Stephen ever nod?,Stephen does ever nod.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,897,-44.46324157714844,-43.605098724365234,0
+Might Tanya ever compel Danielle to confuse Pamela?,Tanya might ever compel Danielle to confuse Pamela.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,898,-102.10089111328125,-90.40544128417969,0
+Can a boy ever wonder who said some banks encourage Bruce to stun Peter?,A boy can ever wonder who said some banks encourage Bruce to stun Peter.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,899,-126.31639099121094,-120.84162139892578,0
+Did Erin ever waste away?,Erin did ever waste away.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,900,-50.6768913269043,-51.332557678222656,1
+Could Sherry ever prefer this coat to tighten?,Sherry could ever prefer this coat to tighten.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,901,-78.17826843261719,-66.97688293457031,0
+Has Stacey ever gone to Harvard University?,Stacey has ever gone to Harvard University.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,902,-64.33245849609375,-52.217193603515625,0
+Can Derek ever dare Tanya's oncologists to bring most forks?,Derek can ever dare Tanya's oncologists to bring most forks.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,903,-126.63394927978516,-121.14042663574219,0
+Might Richard ever prompt Bruce's wife to compromise?,Richard might ever prompt Bruce's wife to compromise.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,904,-95.74541473388672,-78.09579467773438,0
+Could Christina ever prevent Rachel from buying some turtles?,Christina could ever prevent Rachel from buying some turtles.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,905,-92.69132995605469,-85.61304473876953,0
+Could every lady ever flee from the waitresses?,Every lady could ever flee from the waitresses.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,906,-72.6922607421875,-66.18733215332031,0
+Can every shirt ever wrinkle?,Every shirt can ever wrinkle.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,907,-47.9180793762207,-44.924957275390625,0
+Had some customers ever wanted every waitress to play?,Some customers had ever wanted every waitress to play.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,908,-64.39090728759766,-57.627601623535156,0
+Would Kathleen ever hate Andrew?,Kathleen would ever hate Andrew.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,909,-58.11621856689453,-58.42365264892578,1
+Might Jennifer ever judge Liam to scan those documentaries?,Jennifer might ever judge Liam to scan those documentaries.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,910,-100.21403503417969,-81.34394836425781,0
+Can some senators ever skate around the hill?,Some senators can ever skate around the hill.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,911,-70.62796783447266,-59.19476318359375,0
+Will these associations ever conceal who might bother to scratch?,These associations will ever conceal who might bother to scratch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,912,-86.65668487548828,-75.91670989990234,0
+Had Edward ever referenced Tanya?,Edward had ever referenced Tanya.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,913,-61.936317443847656,-57.52068328857422,0
+Could Jill ever long to speak up?,Jill could ever long to speak up.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,914,-60.70493698120117,-56.00083923339844,0
+Should every library ever collaborate?,Every library should ever collaborate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,915,-52.817848205566406,-46.592796325683594,0
+Would every closet ever shut?,Every closet would ever shut.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,916,-49.06756591796875,-42.63808059692383,0
+Has some actor ever written?,Some actor has ever written.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,917,-41.885284423828125,-35.592159271240234,0
+Had Richard ever wanted a light to brighten?,Richard had ever wanted a light to brighten.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,918,-69.49541473388672,-60.1344108581543,0
+Could Adam ever skate around those glaciers?,Adam could ever skate around those glaciers.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,919,-71.74093627929688,-62.15224838256836,0
+Could most scarves ever fray?,Most scarves could ever fray.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,920,-56.12969970703125,-52.41242218017578,0
+Have some drivers ever observed Deborah?,Some drivers have ever observed Deborah.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,921,-59.45344543457031,-52.064945220947266,0
+Has Naomi ever pressed Beth to confuse Veronica?,Naomi has ever pressed Beth to confuse Veronica.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,922,-82.05328369140625,-83.07142639160156,1
+Had the shoe ever warped?,The shoe had ever warped.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,923,-43.686832427978516,-34.33140563964844,0
+Can the waitresses ever mess up most malls?,The waitresses can ever mess up most malls.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,924,-79.3160171508789,-72.66827392578125,0
+Should many guys ever testify?,Many guys should ever testify.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,925,-45.73778533935547,-38.4975471496582,0
+Have those senators ever bothered to aggravate some waiters?,Those senators have ever bothered to aggravate some waiters.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,926,-78.11561584472656,-69.61714935302734,0
+Had malls ever resembled some prints?,Malls had ever resembled some prints.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,927,-59.51054382324219,-53.03394317626953,0
+Would Rose ever escape?,Rose would ever escape.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,928,-45.957977294921875,-38.91789627075195,0
+Has every lady ever known what is cracking?,Every lady has ever known what is cracking.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,929,-62.73310852050781,-54.66468811035156,0
+Could Heather ever sing?,Heather could ever sing.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,930,-48.28242492675781,-37.77760314941406,0
+Do those skateboards ever slip?,Those skateboards do ever slip.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,931,-51.497283935546875,-49.485435485839844,0
+Has Jennifer ever come here?,Jennifer has ever come here.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,932,-44.624908447265625,-33.7078857421875,0
+Did Tracy ever cook?,Tracy did ever cook.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,933,-43.178009033203125,-48.59575653076172,1
+Will Martin ever slump over?,Martin will ever slump over.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,934,-50.44252014160156,-47.75385284423828,0
+Have the skateboards ever accelerated?,The skateboards have ever accelerated.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,935,-50.87395477294922,-44.33620071411133,0
+Had Craig ever bothered Marla?,Craig had ever bothered Marla.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,936,-61.022125244140625,-53.14866638183594,0
+Has Douglas ever urged Tracy to yell?,Douglas has ever urged Tracy to yell.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,937,-72.87876892089844,-59.96234130859375,0
+Would the Impressionists ever approve?,The Impressionists would ever approve.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,938,-52.73865509033203,-44.19287109375,0
+Has Paul ever embarrassed Dan?,Paul has ever embarrassed Dan.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,939,-56.136566162109375,-45.64723205566406,0
+Have some patients ever conspired?,Some patients have ever conspired.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,940,-45.25090026855469,-41.71613311767578,0
+Did some bicycle ever shatter?,Some bicycle did ever shatter.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,941,-48.61627197265625,-48.28988265991211,0
+Have waiters ever doubted Paul was escaping?,Waiters have ever doubted Paul was escaping.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,942,-73.3962631225586,-68.6904525756836,0
+Did Samuel ever press Cheryl to vanish?,Samuel did ever press Cheryl to vanish.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,943,-72.822265625,-71.1336669921875,0
+Has this man ever continued to yawn?,This man has ever continued to yawn.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,944,-56.44434356689453,-46.85602951049805,0
+Will that organization ever embarrass a company?,That organization will ever embarrass a company.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,945,-60.166873931884766,-52.769615173339844,0
+Had Patricia ever seen?,Patricia had ever seen.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,946,-39.49970626831055,-33.97226333618164,0
+Had Kenneth ever bought the trucks?,Kenneth had ever bought the trucks.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,947,-54.4048957824707,-52.91748809814453,0
+Did Sherry ever pressure Becca to scratch?,Sherry did ever pressure Becca to scratch.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,948,-79.61404418945312,-74.42005920410156,0
+Could Paul ever advise Randolf to nod?,Paul could ever advise Randolf to nod.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,949,-85.31330871582031,-77.5983657836914,0
+Had the student ever exercised?,The student had ever exercised.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,950,-44.4548454284668,-35.027164459228516,0
+Should Deanna ever sell most reports?,Deanna should ever sell most reports.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,951,-62.7437744140625,-57.67303466796875,0
+Had the peppers ever baked?,The peppers had ever baked.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,952,-44.47383117675781,-37.0301513671875,0
+Has Samantha ever realized who nods?,Samantha has ever realized who nods.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,953,-62.41987609863281,-63.89384460449219,1
+Has Martha ever longed to see?,Martha has ever longed to see.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,954,-60.27881622314453,-60.96861267089844,1
+Have some candles ever vanished?,Some candles have ever vanished.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,955,-38.3563232421875,-36.2520637512207,0
+Will every eye ever open?,Every eye will ever open.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,956,-49.15766143798828,-37.943817138671875,0
+Could Derek ever boast?,Derek could ever boast.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,957,-51.72724533081055,-45.248046875,0
+Will these peppers ever blacken?,These peppers will ever blacken.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,958,-57.481266021728516,-47.2612419128418,0
+Did the plate ever fall apart?,The plate did ever fall apart.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,959,-44.25989532470703,-44.74231719970703,1
+Did many actors ever react?,Many actors did ever react.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,960,-45.15909957885742,-43.27188491821289,0
+Might Jacqueline ever run around a lot of high schools?,Jacqueline might ever run around a lot of high schools.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,961,-81.59758758544922,-71.2015380859375,0
+Has pasta ever scorched?,Pasta has ever scorched.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,962,-50.029197692871094,-44.54412078857422,0
+Had Steve ever nodded?,Steve had ever nodded.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,963,-44.930057525634766,-34.267539978027344,0
+Had Helen ever researched some legislatures?,Helen had ever researched some legislatures.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,964,-64.16239929199219,-56.21589660644531,0
+Has Charles ever irritated Tonya?,Charles has ever irritated Tonya.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,965,-62.645721435546875,-52.14765167236328,0
+Can many pedestrians ever praise Lori?,Many pedestrians can ever praise Lori.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,966,-72.08309936523438,-62.8298225402832,0
+Had Sheila ever walked through all closets?,Sheila had ever walked through all closets.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,967,-68.8917007446289,-60.712615966796875,0
+Should a bank ever profit?,A bank should ever profit.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,968,-44.247291564941406,-42.17662048339844,0
+Did Denise ever lie?,Denise did ever lie.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,969,-47.61281967163086,-44.43208312988281,0
+Have all students ever approached some actresses?,All students have ever approached some actresses.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,970,-57.9571418762207,-48.78030014038086,0
+Had Kristin ever required Kirsten to cheer?,Kristin had ever required Kirsten to cheer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,971,-79.00474548339844,-69.2152328491211,0
+Will these cashiers ever attempt to mutter?,These cashiers will ever attempt to mutter.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,972,-69.98236846923828,-66.09039306640625,0
+Had Connie ever brought every gate?,Connie had ever brought every gate.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,973,-61.40692901611328,-55.66619873046875,0
+Would Sabrina ever love Lori?,Sabrina would ever love Lori.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,974,-62.03657531738281,-62.15447998046875,1
+Does Amy ever joke around?,Amy does ever joke around.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,975,-51.387413024902344,-48.28711700439453,0
+Can that broccoli ever rot?,That broccoli can ever rot.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,976,-56.547332763671875,-49.88087844848633,0
+Should a lot of waiters ever hurt the men?,A lot of waiters should ever hurt the men.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,977,-64.88963317871094,-57.59367370605469,0
+Could that window ever shut?,That window could ever shut.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,978,-49.84760284423828,-42.60651397705078,0
+Does some pedestrian ever salute?,Some pedestrian does ever salute.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,979,-47.01570129394531,-48.386558532714844,1
+Will some ladies ever turn out to conceal those fish?,Some ladies will ever turn out to conceal those fish.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,980,-70.50831604003906,-62.93550109863281,0
+Can a boy ever research science?,A boy can ever research science.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,981,-52.234519958496094,-47.213199615478516,0
+Had every doctor ever cleaned many libraries?,Every doctor had ever cleaned many libraries.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,982,-65.11470794677734,-55.30042266845703,0
+Should Alexander ever walk through some museum?,Alexander should ever walk through some museum.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,983,-66.63029479980469,-58.41859817504883,0
+Would these scarves ever shrink?,These scarves would ever shrink.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,984,-54.74858856201172,-48.285701751708984,0
+Has Roger ever known Theresa?,Roger has ever known Theresa.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,985,-52.968772888183594,-44.797943115234375,0
+Had these women ever divorced?,These women had ever divorced.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,986,-49.194034576416016,-39.149452209472656,0
+Had Lucille ever dropped by some movie theater?,Lucille had ever dropped by some movie theater.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,987,-74.4077377319336,-62.3646354675293,0
+Had the Clintons ever murmured?,The Clintons had ever murmured.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,988,-60.1092529296875,-52.166648864746094,0
+Had a lot of drivers ever passed a lot of high schools?,A lot of drivers had ever passed a lot of high schools.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,989,-62.999916076660156,-57.6480712890625,0
+Did Caroline ever question Jill?,Caroline did ever question Jill.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,990,-53.178565979003906,-55.68495178222656,1
+Had this bank ever persuaded Eva's mothers to reunite?,This bank had ever persuaded Eva's mothers to reunite.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,991,-90.06945037841797,-80.39215087890625,0
+Had many museums ever preferred that bike to steer?,Many museums had ever preferred that bike to steer.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,992,-80.21548461914062,-73.6573486328125,0
+Does Katherine ever hunt?,Katherine does ever hunt.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,993,-43.019126892089844,-46.87172317504883,1
+Could Ruth ever attempt to boycott this college campus?,Ruth could ever attempt to boycott this college campus.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,994,-79.30052185058594,-77.80668640136719,0
+Should that water ever condense?,That water should ever condense.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,995,-54.125701904296875,-49.1761360168457,0
+Can all senators ever hug?,All senators can ever hug.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,996,-57.516090393066406,-45.96181106567383,0
+Had all dancers ever disagreed?,All dancers had ever disagreed.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,997,-48.71076202392578,-44.00347900390625,0
+Has Paul ever found Richard to impress that association?,Paul has ever found Richard to impress that association.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,998,-83.78327941894531,-71.99620056152344,0
+Could Raymond ever figure out who attack Janice?,Raymond could ever figure out who attack Janice.,semantics,npi_licensing,matrix_question_npi_licensor_present,True,False,True,True,999,-81.44654846191406,-73.98861694335938,0
