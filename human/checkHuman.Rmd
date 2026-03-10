@@ -1,0 +1,133 @@
+---
+title: "BLiMP Human Experiment"
+output: html_notebook
+---
+
+This is the R notebook for examining the human experiment set up of the BLiMP experiment.
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+```
+Load in `stims.csv` file
+```{r}
+stims <- read_csv("stims.csv")
+
+```
+We want to check the following things:
+1. there are 67 distinct Groups
+```{r}
+n_distinct(stims$Group)
+```
+
+```{r}
+stims %>%
+  count(Group)
+```
+
+2. For each group, there are 100 target items and 10 filler items
+```{r}
+unique((stims %>%
+  filter(trial_type == "target") %>%
+  group_by(Group) %>%
+  summarize(n_target = n()))$n_target)
+
+unique((stims %>%
+  filter(trial_type == "filler") %>%
+  group_by(Group) %>%
+  summarize(n_filler = n()))$n_filler)
+```
+3. For each group, there are 10 per configuration
+
+```{r}
+unique((stims %>%
+  filter(trial_type == "target") %>%
+  group_by(Group, config) %>%
+  summarize(n_per_cond = n()))$n_per_cond)
+```
+
+4. across all groups, the number of trials per config or (config, trial) is the same
+67 participaants * 100 trials = 6700 trials in total
+6700 / 67 configurations = 100 trials per configuration
+```{r}
+unique((stims %>%
+  filter(trial_type == "target") %>%
+  group_by(config, pair_id) %>%
+  summarize(ntrials_per_trial = n()))$ntrials_per_trial) # should be 10
+
+unique((stims %>%
+  filter(trial_type == "target") %>%
+  group_by(config) %>%
+  summarize(ntrials_per_config = n()))$ntrials_per_config) # should be 100
+```
+
+```{r}
+stims %>%
+  filter(trial_type == "target") %>%
+  group_by(Group) %>%
+  summarise(n_configs = n_distinct(config))
+
+stims %>%
+  filter(trial_type == "target") %>%
+  distinct(Group, config) %>%
+  count(config)
+```
+
+
+5. check all fillers
+```{r}
+fillers <- stims %>%
+  filter(trial_type == "filler")
+```
+
+6. check that neighboring trials do not have the same configurations:
+
+Right now none of the rows have this violation! Check!
+```{r}
+stims %>%
+  group_by(Group) %>%
+  filter(config == lag(config))
+```
+
+
+```{r}
+# Set working directory to source file location
+
+# User-defined function to read in PCIbex Farm results files
+read.pcibex <- function(filepath, auto.colnames=TRUE, fun.col=function(col,cols){cols[cols==col]<-paste(col,"Ibex",sep=".");return(cols)}) {
+  n.cols <- max(count.fields(filepath,sep=",",quote=NULL),na.rm=TRUE)
+  if (auto.colnames){
+    cols <- c()
+    con <- file(filepath, "r")
+    while ( TRUE ) {
+      line <- readLines(con, n = 1, warn=FALSE)
+      if ( length(line) == 0) {
+        break
+      }
+      m <- regmatches(line,regexec("^# (\\d+)\\. (.+)\\.$",line))[[1]]
+      if (length(m) == 3) {
+        index <- as.numeric(m[2])
+        value <- m[3]
+        if (is.function(fun.col)){
+         cols <- fun.col(value,cols)
+        }
+        cols[index] <- value
+        if (index == n.cols){
+          break
+        }
+      }
+    }
+    close(con)
+    return(read.csv(filepath, comment.char="#", header=FALSE, col.names=cols))
+  }
+  else{
+    return(read.csv(filepath, comment.char="#", header=FALSE, col.names=seq(1:n.cols)))
+  }
+}
+
+# Read in results file
+interim <- read.pcibex("interim.csv") %>%
+  filter(Parameter=="Selection",
+         trial_type=="target")
+```
+
