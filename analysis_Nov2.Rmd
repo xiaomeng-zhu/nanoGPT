@@ -1,0 +1,620 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# Load Packages
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(lmerTest)
+library(lme4)
+library(glue)
+```
+# Load Blimp configs
+```{r}
+blimp_configs = c('adjunct_island', 'anaphor_gender_agreement', 'anaphor_number_agreement', 'animate_subject_passive', 'animate_subject_trans', 'causative', 'complex_NP_island', 'coordinate_structure_constraint_complex_left_branch', 'coordinate_structure_constraint_object_extraction', 'determiner_noun_agreement_1', 'determiner_noun_agreement_2', 'determiner_noun_agreement_irregular_1', 'determiner_noun_agreement_irregular_2', 'determiner_noun_agreement_with_adj_2', 'determiner_noun_agreement_with_adj_irregular_1', 'determiner_noun_agreement_with_adj_irregular_2', 'determiner_noun_agreement_with_adjective_1', 'distractor_agreement_relational_noun', 'distractor_agreement_relative_clause', 'drop_argument', 'ellipsis_n_bar_1', 'ellipsis_n_bar_2', 'existential_there_object_raising', 'existential_there_quantifiers_1', 'existential_there_quantifiers_2', 'existential_there_subject_raising', 'expletive_it_object_raising', 'inchoative', 'intransitive', 'irregular_past_participle_adjectives', 'irregular_past_participle_verbs', 'irregular_plural_subject_verb_agreement_1', 'irregular_plural_subject_verb_agreement_2', 'left_branch_island_echo_question', 'left_branch_island_simple_question', 'matrix_question_npi_licensor_present', 'npi_present_1', 'npi_present_2', 'only_npi_licensor_present', 'only_npi_scope', 'passive_1', 'passive_2', 'principle_A_c_command', 'principle_A_case_1', 'principle_A_case_2', 'principle_A_domain_1', 'principle_A_domain_2', 'principle_A_domain_3', 'principle_A_reconstruction', 'regular_plural_subject_verb_agreement_1', 'regular_plural_subject_verb_agreement_2', 'sentential_negation_npi_licensor_present', 'sentential_negation_npi_scope', 'sentential_subject_island', 'superlative_quantifiers_1', 'superlative_quantifiers_2', 'tough_vs_raising_1', 'tough_vs_raising_2', 'transitive', 'wh_island', 'wh_questions_object_gap', 'wh_questions_subject_gap', 'wh_questions_subject_gap_long_distance', 'wh_vs_that_no_gap', 'wh_vs_that_no_gap_long_distance', 'wh_vs_that_with_gap', 'wh_vs_that_with_gap_long_distance')
+```
+
+function for reading each `csv` file
+```{r}
+
+library(data.table)
+
+read_blimp_result <- function(model_seed, data_seed, blimp_config, step, subsplit) {
+  file <- glue("results/blimp_{blimp_config}_m{model_seed}_d{data_seed}_{subsplit}_{step}.csv")
+
+  res <- fread(file)
+  res[, `:=`(
+    data_seed = data_seed,
+    model_seed = model_seed,
+    config = blimp_config,
+    step = step,
+    subsplit = subsplit
+  )]
+
+  return(res)
+}
+
+```
+
+## Read Exp1
+```{r, include=FALSE}
+all_data_exp1 <- list()  # Initialize an empty list to store data frames
+i <- 1  # Index for the list
+
+exp1_model_seeds <- c(5345, 7445, 1732, 8720, 4522, 7454,  577, 7429, 5578,  440, 2751, 5731, 5272, 5653, 4000, 4557,  583, 6290, 7051, 4895)
+
+for (config in blimp_configs) {
+  for (s in exp1_model_seeds) {
+    res <- read_blimp_result(s, 42, config, 500, 999)
+    all_data_exp1[[i]] <- res
+    i <- i + 1
+    }
+}
+combined_data_exp1 <- do.call(rbind, all_data_exp1)
+```
+
+```{r}
+set_category <- function (df) {
+  df <- df %>%
+  mutate(category=case_when(grepl("anaphor", config)~"Anaphor Agreement",
+                            grepl("principle_A", config)~"Binding",
+                            grepl("determiner_noun", config)~"Determiner-Noun Agreement",
+                            grepl("wh_", config)~"Filler Gap",
+                            grepl("irregular", config)~"Irregular Forms",
+                            grepl("quantifiers",config)~"Quantifiers",
+                            grepl("distractor_agreement", config)~"Subject-Verb Agreement",
+                            grepl("subject_verb_agreement", config)~"Subject-Verb Agreement",
+                            grepl("npi", config)~"NPI Licensing",
+                            grepl("island", config)~"Island Effects",
+                            grepl("coordinate_structure", config)~"Island Effects",
+                            grepl("ellipsis", config)~"Ellipsis",
+                            grepl("raising", config)~"Control/Raising",
+                            config %in% c("animate_subject_passive", 
+                                          "animate_subject_trans", 
+                                          "causative",
+                                          "drop_argument",
+                                          "inchoative",
+                                          "intransitive",
+                                          "passive_1",
+                                          "passive_2",
+                                          "transitive"
+                                          ) ~ "Argument Structure"
+                            
+                            ))
+  return (df)
+}
+combined_data_exp1 <- set_category(combined_data_exp1)
+
+```
+
+### Figures for exp1
+```{r}
+accuracy.by.config.exp1<- combined_data_exp1 %>%
+  mutate(model_seed=factor(model_seed)) %>%
+  group_by(config, model_seed) %>%
+  summarize(accuracy=mean(correct)) %>%
+  group_by(config)
+
+accuracy.by.config.exp1.plt <- accuracy.by.config.exp1 %>%
+  ggplot(aes(x=accuracy, y=config)) + 
+  geom_violin(fill="gray80") + 
+  geom_boxplot(width=0.4, outlier.color = "steelblue") + 
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle=45, vjust=0.5)) + 
+  labs(title="Exp1: vary model init")
+
+accuracy.by.config.exp1.plt
+ggsave("exp1.accuracy.by.config.pdf", accuracy.by.config.exp1.plt, height=8, width=6)
+```
+
+### Exp1 Standard Deviation
+```{r}
+exp1.range.distribution <- accuracy.by.config.exp1 %>%
+  summarize(acc_range = max(accuracy) - min(accuracy)) 
+
+```
+
+```{r}
+exp1.range.distribution.plt <- exp1.range.distribution %>%
+  ggplot(aes(x = "", y = acc_range)) +
+  geom_violin(trim = FALSE) +       # Violin plot; trim=FALSE shows full range
+  geom_boxplot(width = 0.1,        # Optional: add a thin boxplot inside
+               fill = "white", 
+               outlier.shape = NA) +
+  theme_minimal() +
+  labs(title = "Distribution of Accuracy Range in Exp 1",
+       y = "Max - Min") +
+  theme(legend.position = "none")  +
+  coord_cartesian(ylim=c(0,1))
+
+ggsave("exp1.range.distribution.pdf", exp1.range.distribution.plt, height=6, width=4)
+```
+
+
+
+## Read Exp2
+
+```{r, include=FALSE}
+all_data_exp2 <- list()  # Initialize an empty list to store data frames
+i <- 1  # Index for the list
+
+exp2_data_seeds <- c(3105, 6354, 9966, 5858, 6012, 9821, 5130,  416, 3539, 1704, 3528, 7899, 3027,  747, 2818, 9479, 6985, 3328, 7953, 1770)
+
+for (config in blimp_configs) {
+  for (s in exp2_data_seeds) {
+    res <- read_blimp_result(42, s, config, 500, 999)
+    all_data_exp2[[i]] <- res
+    i <- i + 1
+    }
+}
+combined_data_exp2 <- do.call(rbind, all_data_exp2)
+```
+
+### Exp2 Accuracy
+```{r}
+accuracy.by.config.exp2<- combined_data_exp2 %>%
+  mutate(data_seed=factor(data_seed)) %>%
+  group_by(config, data_seed) %>%
+  summarize(accuracy=mean(correct)) %>%
+  group_by(config)
+
+accuracy.by.config.exp2.plt <- accuracy.by.config.exp2 %>%
+  ggplot(aes(x=accuracy, y=config)) + 
+  geom_violin(fill="gray80") + 
+  geom_boxplot(width=0.4, outlier.color = "steelblue") + 
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle=45, vjust=0.5)) + 
+  labs(title="Exp2: vary data order")
+
+accuracy.by.config.exp2.plt
+ggsave("exp2.accuracy.by.config.pdf", accuracy.by.config.exp2.plt, height=8, width=6)
+```
+
+### Exp 2 Standard Deviation
+```{r}
+exp2.range.distribution <- combined_data_exp2 %>%
+  mutate(data_seed=factor(data_seed)) %>%
+  group_by(config, data_seed) %>%
+  summarize(accuracy=mean(correct)) %>%
+  group_by(config) %>%
+  summarize(acc_range = max(accuracy) - min(accuracy)) 
+```
+
+```{r}
+
+exp2.range.distribution.plt <- exp2.range.distribution %>%
+  ggplot(aes(x = "", y = acc_range)) +
+  geom_violin(trim = FALSE) +       # Violin plot; trim=FALSE shows full range
+  geom_boxplot(width = 0.1,        # Optional: add a thin boxplot inside
+               fill = "white", 
+               outlier.shape = NA) +
+  theme_minimal() +
+  labs(title = "Distribution of Accuracy Range in Exp 2",
+       y = "Max - Min") +
+  theme(legend.position = "none")  +
+  coord_cartesian(ylim=c(0,1))
+
+ggsave("exp2.range.distribution.pdf", exp2.range.distribution.plt, height=6, width=4)
+```
+
+## Read Exp3
+
+```{r, include=FALSE}
+all_data_exp3 <- list()  # Initialize an empty list to store data frames
+i <- 1  # Index for the list
+
+exp3_subsplits <- c(0,1,2,3,4,5,6,7,8,9)
+
+for (config in blimp_configs) {
+  for (subsplit in exp3_subsplits) {
+    res <- read_blimp_result(42, 42, config, 500, subsplit)
+    all_data_exp3[[i]] <- res
+    i <- i + 1
+    }
+}
+combined_data_exp3 <- do.call(rbind, all_data_exp3)
+```
+
+
+### Exp3 accuracy
+```{r}
+accuracy.by.config.exp3<- combined_data_exp3 %>%
+  mutate(subsplit=factor(subsplit)) %>%
+  group_by(config, subsplit) %>%
+  summarize(accuracy=mean(correct)) %>%
+  group_by(config)
+
+accuracy.by.config.exp3.plt <- accuracy.by.config.exp3 %>%
+  ggplot(aes(x=accuracy, y=config)) + 
+  geom_violin(fill="gray80") + 
+  geom_boxplot(width=0.4, outlier.color = "steelblue") + 
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle=45, vjust=0.5)) + 
+  labs(title="Exp3: vary data")
+
+accuracy.by.config.exp3.plt
+ggsave("exp3.accuracy.by.config.pdf", accuracy.by.config.exp3.plt, height=8, width=6)
+```
+
+### Exp3 Standard Deviation
+```{r}
+exp3.range.distribution <- combined_data_exp3 %>%
+  mutate(subsplit=factor(subsplit)) %>%
+  group_by(config, subsplit) %>%
+  summarize(accuracy=mean(correct)) %>%
+  group_by(config) %>%
+  summarize(acc_range = max(accuracy) - min(accuracy)) 
+```
+
+```{r}
+
+exp3.range.distribution.plt <- exp3.range.distribution %>%
+  ggplot(aes(x = "", y = acc_range)) +
+  geom_violin(trim = FALSE) +       # Violin plot; trim=FALSE shows full range
+  geom_boxplot(width = 0.1,        # Optional: add a thin boxplot inside
+               fill = "white", 
+               outlier.shape = NA) +
+  theme_minimal() +
+  labs(title = "Distribution of Accuracy Range in Exp 3",
+       y = "Max - Min") +
+  theme(legend.position = "none")  +
+  coord_cartesian(ylim=c(0,1))
+
+ggsave("exp3.range.distribution.pdf", exp3.range.distribution.plt, height=6, width=4)
+```
+
+## Read Exp4
+```{r, include=FALSE}
+all_data_exp4 <- list()  # Initialize an empty list to store data frames
+i <- 1  # Index for the list
+
+exp4_pairs <- list(
+  c(5345, 0),
+  c(7445, 1),
+  c(1732, 2),
+  c(8720, 3),
+  c(4522, 4),
+  c(7454, 5),
+  c(577, 6),
+  c(7429, 7),
+  c(5578, 8),
+  c(440, 9)
+)
+
+for (config in blimp_configs) {
+  for (p in exp4_pairs) {
+    model_seed <- p[1]
+    subsplit <- p[2]
+    res <- read_blimp_result(model_seed, 42, config, 500, subsplit)
+    all_data_exp4[[i]] <- res
+    i <- i + 1
+    }
+}
+combined_data_exp4 <- do.call(rbind, all_data_exp4)
+```
+
+
+### Exp 4 Accuracy
+```{r}
+accuracy.by.config.exp4 <- combined_data_exp4 %>%
+  mutate(subsplit=factor(subsplit)) %>%
+  group_by(config, subsplit) %>%
+  summarize(accuracy=mean(correct)) %>%
+  group_by(config)
+
+accuracy.by.config.exp4.plt <- accuracy.by.config.exp4 %>%
+  ggplot(aes(x=accuracy, y=config)) + 
+  geom_violin(fill="gray80") + 
+  geom_boxplot(width=0.4, outlier.color = "steelblue") + 
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle=45, vjust=0.5)) + 
+  labs(title="Exp4: vary model init and data")
+
+ggsave("exp4.accuracy.by.config.pdf", accuracy.by.config.exp4.plt, height=8, width=6)
+
+```
+
+
+### Exp 4 standard deviation
+
+```{r}
+exp4.range.distribution <- combined_data_exp4 %>%
+  mutate(subsplit=factor(subsplit)) %>%
+  group_by(config, subsplit) %>%
+  summarize(accuracy=mean(correct)) %>%
+  group_by(config) %>%
+  summarize(acc_range = max(accuracy) - min(accuracy)) 
+```
+
+
+
+```{r}
+exp4.range.distribution.plt <- exp4.range.distribution %>%
+  ggplot(aes(x = "", y = acc_range)) +
+  geom_violin(trim = FALSE) +       # Violin plot; trim=FALSE shows full range
+  geom_boxplot(width = 0.1,        # Optional: add a thin boxplot inside
+               fill = "white", 
+               outlier.shape = NA) +
+  theme_minimal() +
+  labs(title = "Distribution of Accuracy Range in Exp 4",
+       y = "Max - Min") +
+  theme(legend.position = "none")  +
+  coord_cartesian(ylim=c(0,1))
+
+ggsave("exp4.range.distribution.pdf", exp4.range.distribution.plt, height=6, width=4)
+```
+
+## Read Exp 5
+
+```{r, include=FALSE}
+all_data_exp5 <- list()  # Initialize an empty list to store data frames
+i <- 1  # Index for the list
+
+exp1_model_seeds <- c(5345, 7445, 1732, 8720, 4522, 7454,  577, 7429, 5578,  440, 2751, 5731, 5272, 5653, 4000, 4557,  583, 6290, 7051, 4895)
+
+for (config in blimp_configs) {
+  for (s in exp1_model_seeds) {
+    res <- read_blimp_result(s, 42, config, 500, 0)
+    all_data_exp5[[i]] <- res
+    i <- i + 1
+    }
+}
+combined_data_exp5 <- do.call(rbind, all_data_exp5)
+```
+
+
+### Figures for exp5
+```{r}
+accuracy.by.config.exp5<- combined_data_exp5 %>%
+  mutate(model_seed=factor(model_seed)) %>%
+  group_by(config, model_seed) %>%
+  summarize(accuracy=mean(correct)) %>%
+  group_by(config)
+
+accuracy.by.config.exp5.plt <- accuracy.by.config.exp5 %>%
+  ggplot(aes(x=accuracy, y=config)) + 
+  geom_violin(fill="gray80") + 
+  geom_boxplot(width=0.4, outlier.color = "steelblue") + 
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle=45, vjust=0.5)) + 
+  labs(title="Exp5: vary model init (10M)")
+
+accuracy.by.config.exp5.plt
+ggsave("exp5.accuracy.by.config.pdf", accuracy.by.config.exp5.plt, height=8, width=6)
+```
+
+### Variation Exp5
+```{r}
+exp5.range.distribution <- accuracy.by.config.exp5 %>%
+  summarize(acc_range = max(accuracy) - min(accuracy)) 
+
+```
+
+```{r}
+exp5.range.distribution.plt <- exp5.range.distribution %>%
+  ggplot(aes(x = "", y = acc_range)) +
+  geom_violin(trim = FALSE) +       # Violin plot; trim=FALSE shows full range
+  geom_boxplot(width = 0.1,        # Optional: add a thin boxplot inside
+               fill = "white", 
+               outlier.shape = NA) +
+  theme_minimal() +
+  labs(title = "Distribution of Accuracy Range in Exp 5",
+       y = "Max - Min") +
+  theme(legend.position = "none")  +
+  coord_cartesian(ylim=c(0,1))
+
+ggsave("exp5.range.distribution.pdf", exp5.range.distribution.plt, height=6, width=4)
+```
+
+
+## Read Exp 6
+
+```{r, include=FALSE}
+all_data_exp6 <- list()  # Initialize an empty list to store data frames
+i <- 1  # Index for the list
+
+exp2_data_seeds <- c(3105, 6354, 9966, 5858, 6012, 9821, 5130,  416, 3539, 1704, 3528, 7899, 3027,  747, 2818, 9479, 6985, 3328, 7953, 1770)
+
+for (config in blimp_configs) {
+  for (s in exp2_data_seeds) {
+    res <- read_blimp_result(42, s, config, 500, 0)
+    all_data_exp6[[i]] <- res
+    i <- i + 1
+    }
+}
+combined_data_exp6 <- do.call(rbind, all_data_exp6)
+```
+
+
+### Figures for exp6
+```{r}
+accuracy.by.config.exp6<- combined_data_exp6 %>%
+  mutate(data_seed=factor(data_seed)) %>%
+  group_by(config, data_seed) %>%
+  summarize(accuracy=mean(correct)) %>%
+  group_by(config)
+
+accuracy.by.config.exp6.plt <- accuracy.by.config.exp6 %>%
+  ggplot(aes(x=accuracy, y=config)) + 
+  geom_violin(fill="gray80") + 
+  geom_boxplot(width=0.4, outlier.color = "steelblue") + 
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle=45, vjust=0.5)) + 
+  labs(title="Exp6: vary data order (10M)")
+
+accuracy.by.config.exp6.plt
+ggsave("exp6.accuracy.by.config.pdf", accuracy.by.config.exp6.plt, height=8, width=6)
+```
+### Variation for Exp6
+
+```{r}
+exp6.range.distribution <- accuracy.by.config.exp6 %>%
+  summarize(acc_range = max(accuracy) - min(accuracy)) 
+
+```
+
+```{r}
+exp6.range.distribution.plt <- exp6.range.distribution %>%
+  ggplot(aes(x = "", y = acc_range)) +
+  geom_violin(trim = FALSE) +       # Violin plot; trim=FALSE shows full range
+  geom_boxplot(width = 0.1,        # Optional: add a thin boxplot inside
+               fill = "white", 
+               outlier.shape = NA) +
+  theme_minimal() +
+  labs(title = "Distribution of Accuracy Range in Exp 6",
+       y = "Max - Min") +
+  theme(legend.position = "none")  +
+  coord_cartesian(ylim=c(0,1))
+
+ggsave("exp6.range.distribution.pdf", exp6.range.distribution.plt, height=6, width=4)
+```
+
+# Combining Plots
+```{r}
+library(patchwork)
+range.distribution <- exp1.range.distribution.plt + exp2.range.distribution.plt + exp3.range.distribution.plt + exp4.range.distribution.plt
+```
+
+```{r}
+ggsave("range.distributions.pdf", range.distribution, height=8, width=6)
+```
+
+
+```{r}
+accuracy.all <- accuracy.by.config.exp1.plt + accuracy.by.config.exp2.plt + accuracy.by.config.exp3.plt + accuracy.by.config.exp4.plt
+```
+
+```{r}
+ggsave("accuracy.all.pdf", accuracy.all, height=20, width=14)
+```
+
+# Read Exp 7
+```{r, include=FALSE}
+all_data_exp7 <- list()  # Initialize an empty list to store data frames
+i <- 1  # Index for the list
+
+exp7_splits <- seq(from = 0, to = 99, by = 1)
+
+for (config in blimp_configs) {
+  for (s in exp7_splits) {
+    res <- read_blimp_result(42, 42, config, 1000, s)
+    all_data_exp7[[i]] <- res
+    i <- i + 1
+    }
+}
+combined_data_exp7 <- do.call(rbind, all_data_exp7)
+```
+
+```{r}
+accuracy.by.config.exp7 <- combined_data_exp7 %>%
+  mutate(subsplit=factor(subsplit)) %>%
+  group_by(config, subsplit) %>%
+  summarize(accuracy=mean(correct)) %>%
+  group_by(config)
+
+exp7_plot <- accuracy.by.config.exp7 %>%
+  ggplot(aes(x=accuracy, y=config)) + 
+  geom_violin(fill="gray80") + 
+  geom_boxplot(width=0.4, outlier.color = "steelblue") + 
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle=45, vjust=0.5)) + 
+  labs(title="Exp7: vary data for c4")
+ggsave("exp7.pdf", exp7_plot, height=8, width=6)
+```
+
+
+```{r}
+exp7.range.distribution <- accuracy.by.config.exp7 %>%
+  summarize(acc_range = max(accuracy) - min(accuracy)) 
+
+```
+
+```{r}
+exp7.range.distribution.plt <- exp7.range.distribution %>%
+  ggplot(aes(x = "", y = acc_range)) +
+  geom_violin(trim = FALSE) +       # Violin plot; trim=FALSE shows full range
+  geom_boxplot(width = 0.1,        # Optional: add a thin boxplot inside
+               fill = "white", 
+               outlier.shape = NA) +
+  theme_minimal() +
+  labs(title = "Distribution of Accuracy Range in Exp 7",
+       y = "Max - Min") +
+  theme(legend.position = "none")  +
+  coord_cartesian(ylim=c(0,1))
+
+ggsave("exp7.range.distribution.pdf", exp7.range.distribution.plt, height=6, width=4)
+```
+
+
+# Read data for Exp8
+```{r, include=False}
+all_data_exp8 <- list()  # Initialize an empty list to store data frames
+i <- 1  # Index for the list
+
+exp8_splits <- seq(from = 0, to = 99, by = 1)
+exp8_seeds <- c(5345, 7445, 1732, 8720, 4522, 7454,  577, 7429, 5578,  440, 2751,
+       5731, 5272, 5653, 4000, 4557,  583, 6290, 7051, 4895, 8698, 2250,
+       4640, 7192, 5873, 6331, 1964, 8243, 6590, 8847,  322, 2679, 6631,
+       9886, 9286, 3338, 5460,  252, 3974, 7282, 6774,   36, 8362, 1514,
+       8580,   40, 4756, 3466, 1761, 2305, 3724, 5539, 4993, 8127, 3033,
+       7938, 3040, 6825, 2546, 2593, 1189, 5366, 6077,  108, 1316, 4752,
+       2754, 9753, 8853, 2877, 7074,  800, 3571, 2895, 2928, 7446,  972,
+       8345, 8575, 2021, 9054,  953, 5359, 3858, 5861, 3146, 3306, 3007,
+       7437, 8877, 8609, 7380, 9238, 1057, 3155, 3788, 5401, 6453, 7539,
+       8762)
+
+exp8_pairs <- Map(list, exp8_splits, exp8_seeds)
+
+
+for (config in blimp_configs) {
+  for (s in exp8_pairs) {
+    split_s <- s[1]
+    model_s <- s[2]
+    res <- read_blimp_result(model_s, 42, config, 1000, split_s)
+    all_data_exp8[[i]] <- res
+    i <- i + 1
+    }
+}
+combined_data_exp8 <- do.call(rbind, all_data_exp8)
+```
+
+```{r}
+accuracy.by.config.exp8 <- combined_data_exp8 %>%
+  group_by(config, subsplit) %>%
+  summarize(accuracy=mean(correct)) %>%
+  group_by(config)
+
+
+exp8_plot <- accuracy.by.config.exp8 %>%
+  ggplot(aes(x=accuracy, y=config)) + 
+  geom_violin(fill="gray80") + 
+  geom_boxplot(width=0.4, outlier.color = "steelblue") + 
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle=45, vjust=0.5)) + 
+  labs(title="Exp8: vary data and model initialization with c4")
+ggsave("exp8.pdf", exp8_plot, height=8, width=6)
+```
+
+```{r}
+exp8.range.distribution <- accuracy.by.config.exp8 %>%
+  summarize(acc_range = max(accuracy) - min(accuracy)) 
+
+```
+
+```{r}
+exp8.range.distribution.plt <- exp8.range.distribution %>%
+  ggplot(aes(x = "", y = acc_range)) +
+  geom_violin(trim = FALSE) +       # Violin plot; trim=FALSE shows full range
+  geom_boxplot(width = 0.1,        # Optional: add a thin boxplot inside
+               fill = "white", 
+               outlier.shape = NA) +
+  theme_minimal() +
+  labs(title = "Distribution of Accuracy Range in Exp 8",
+       y = "Max - Min") +
+  theme(legend.position = "none")  +
+  coord_cartesian(ylim=c(0,1))
+
+ggsave("exp8.range.distribution.pdf", exp8.range.distribution.plt, height=6, width=4)
+```
